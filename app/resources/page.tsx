@@ -74,40 +74,6 @@ export default function Resources() {
       ))}
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Event-Specific Tips</h2>
-        <div className={`${styles.tipsContainer} glass`}>
-          <div className={styles.tip}>
-            <h3>📚 Study Events</h3>
-            <p>
-              Start with the official rules manual and create summary sheets.
-              Use flashcards and practice tests regularly.
-            </p>
-          </div>
-          <div className={styles.tip}>
-            <h3>🔨 Build Events</h3>
-            <p>
-              Begin early, test frequently, and document your designs.
-              Understand the rules thoroughly before competition day.
-            </p>
-          </div>
-          <div className={styles.tip}>
-            <h3>🔬 Lab Events</h3>
-            <p>
-              Practice identification and calculations. Bring allowed resources
-              and know how to use them efficiently.
-            </p>
-          </div>
-          <div className={styles.tip}>
-            <h3>🤝 Team Events</h3>
-            <p>
-              Communicate clearly with your partner. Divide tasks based on
-              strengths and practice together regularly.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Need Help?</h2>
         <div className={`${styles.helpBox} glass`}>
           <p>
