@@ -106,7 +106,7 @@ export default function Instructions() {
                 <strong>Important:</strong> In the donation message, please
                 include:
                 <ul>
-                  <li>Student's name</li>
+                  <li>Student&apos;s name</li>
                   <li>Grade</li>
                   <li>Note that 100% of funds should go to Science Olympiad</li>
                 </ul>

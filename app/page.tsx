@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.hero}>
         <h1 className={styles.title}>Welcome to Hyde Science Olympiad</h1>
         <p className={styles.subtitle}>
-          Building tomorrow's scientists through collaborative learning and
+          Building tomorrow&apos;s scientists through collaborative learning and
           competitive excellence
         </p>
       </div>
