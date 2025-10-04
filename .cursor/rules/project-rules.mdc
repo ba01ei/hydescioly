@@ -1,0 +1,7 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+If the server is already running, don't run the server for me. Instead, tell me what url to visit in order to see my website.
