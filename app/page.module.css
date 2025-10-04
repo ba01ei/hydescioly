@@ -6,13 +6,16 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
+  max-height: 450px;
 }
 
 .teamImage {
   width: 100%;
   height: auto;
+  max-height: 450px;
   display: block;
   object-fit: cover;
+  object-position: center;
 }
 
 .hero {
