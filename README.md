@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hyde Science Olympiad Team Website
 
-## Getting Started
+A clean, minimalist website for the Hyde Science Olympiad Team featuring subtle glassmorphism effects and sidebar navigation.
+
+## ✨ Features
+
+- **Minimalist Design** - Clean layout with ample white space and neutral color palette
+- **Subtle Glassmorphism** - Frosted glass effects without color tints for modern aesthetics
+- **Sidebar Navigation** - Fixed sidebar for easy access to all pages
+- **Fully Responsive** - Mobile-first design that adapts to all screen sizes
+- **Multi-Page Structure** - Organized content across dedicated pages
+
+## 📄 Pages
+
+- **Home** - Welcome section and team overview
+- **Instructions** - Event assignments, team structure, and season timeline
+- **Resources** - Study materials, official links, and helpful resources
+- **2024-2025 Team** - Competition results and team achievements
+
+## 🚀 Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design System
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Colors:**
 
-## Learn More
+- Background: `#f8f9fa` (light gray)
+- Surface: `#ffffff` (white)
+- Text Primary: `#1a1a1a` (near black)
+- Text Secondary: `#6c757d` (gray)
+- Border: `#e9ecef` (light gray)
 
-To learn more about Next.js, take a look at the following resources:
+**Glassmorphism:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Background: `rgba(255, 255, 255, 0.7)`
+- Backdrop blur: `12px`
+- Border: `rgba(255, 255, 255, 0.3)`
+- Subtle shadows for depth
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Project Structure
 
-## Deploy on Vercel
+```
+app/
+├── components/
+│   ├── Sidebar.tsx              # Fixed sidebar navigation
+│   ├── Sidebar.module.css
+│   ├── PageLayout.tsx           # Main layout wrapper
+│   └── PageLayout.module.css
+├── instructions/
+│   ├── page.tsx                 # Instructions page
+│   └── page.module.css
+├── resources/
+│   ├── page.tsx                 # Resources page
+│   └── page.module.css
+├── team-2024-2025/
+│   ├── page.tsx                 # Team results page
+│   └── page.module.css
+├── globals.css                  # Global styles
+├── layout.tsx                   # Root layout
+├── page.tsx                     # Home page
+└── page.module.css
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Built With
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 15
+- React 19
+- TypeScript
+- CSS Modules
+- Minimalist Design + Glassmorphism
+
+## 📱 Responsive Breakpoints
+
+- Desktop: 768px+
+- Mobile: < 768px
+
+## 🔗 Contact
+
+- Team Email: hsoteams@gmail.com
+- Group Assignments: http://tiny.cc/hydescioly26
+- Hyde PTSA: hydeptsa@gmail.com
+
+---
+
+Made for Hyde Science Olympiad Team 🧪
