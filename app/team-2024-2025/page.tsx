@@ -310,6 +310,293 @@ export default function Team() {
           </p>
         </div>
       </section>
+
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>2024-2025 Team Roster</h2>
+        <div className={`${styles.rosterCard} glass`}>
+          <p className={styles.totalCount}>70 Team Members</p>
+          <div className={styles.rosterGrid}>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Agriya Dutta</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Daiwik Dinkesh</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>K</div>
+              <div className={styles.memberName}>Kelly Bi</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>M</div>
+              <div className={styles.memberName}>Mishika Desai</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>N</div>
+              <div className={styles.memberName}>Nikit Sai Annapureddy</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>R</div>
+              <div className={styles.memberName}>Rihana Shaik</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Shlok Zambare</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Diya Malhotra</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Samanyu Virupaksha</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Sarthak Gupta</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Aarav Narula</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Anya Mulchandani</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Sameehan Vaidya</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Aaditya Agrawal</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Anish Dhariya</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>H</div>
+              <div className={styles.memberName}>Hanna Lei</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Sakina Mohamed Meeran</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Avinash Mehta</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Dhruv Uppuluri</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>R</div>
+              <div className={styles.memberName}>Rithvik Rajendran</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>V</div>
+              <div className={styles.memberName}>Vivian Yuan</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>H</div>
+              <div className={styles.memberName}>Hansika Ram</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>N</div>
+              <div className={styles.memberName}>Nirvi Thota</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>V</div>
+              <div className={styles.memberName}>Vihaan Panchal</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>M</div>
+              <div className={styles.memberName}>Maitreyee Paturkar</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>M</div>
+              <div className={styles.memberName}>Miraya Vardhan</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>V</div>
+              <div className={styles.memberName}>Vedant Agrawal</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>B</div>
+              <div className={styles.memberName}>Baidehi Das</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Daniel (Hajun) Cho</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Anaya Goteti</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>M</div>
+              <div className={styles.memberName}>Mahathi Bharathwaj</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>J</div>
+              <div className={styles.memberName}>Jaydon Ranatunga</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>M</div>
+              <div className={styles.memberName}>Mootsen Hsieh</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>E</div>
+              <div className={styles.memberName}>Ethan Lee</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>H</div>
+              <div className={styles.memberName}>Hanrui Shou</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>
+                Srivathsa Chakkaravarthy Rajaji Ramgopal
+              </div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Andre (AJ) Azar</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>J</div>
+              <div className={styles.memberName}>Jessica Li</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Arjun Amara</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>B</div>
+              <div className={styles.memberName}>Brandon Chen</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>L</div>
+              <div className={styles.memberName}>Louis Young</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Saanvi Gottimukkula</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Sarah Anna Mathew</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Ariv Pasad</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Subramani Palanissamy</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Aaryan Varshney</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>P</div>
+              <div className={styles.memberName}>Pritika Dangui</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>David Hyun</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Sara Biyani</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Daniel Chin</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Dheethya Srivathsan</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Dilan Somani</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Suha Lee</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Allison Kim</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>R</div>
+              <div className={styles.memberName}>Ryan Kim</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>J</div>
+              <div className={styles.memberName}>Jayden Bae</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>D</div>
+              <div className={styles.memberName}>Dhruvan Singireddy</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Swastika Shukla</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Ankur Dubey</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>J</div>
+              <div className={styles.memberName}>Jyothis Jayaraj</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>K</div>
+              <div className={styles.memberName}>Kadhir Sanganathan</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>L</div>
+              <div className={styles.memberName}>Laura Bruennert</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>M</div>
+              <div className={styles.memberName}>Mihir Bhatt</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>P</div>
+              <div className={styles.memberName}>Paarth Sharma</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>S</div>
+              <div className={styles.memberName}>Siddharth Rajesh</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>A</div>
+              <div className={styles.memberName}>Arjun Krishna</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>R</div>
+              <div className={styles.memberName}>Riana Sahil</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>V</div>
+              <div className={styles.memberName}>Vivienne Bruennert</div>
+            </div>
+            <div className={styles.memberCard}>
+              <div className={styles.memberInitial}>V</div>
+              <div className={styles.memberName}>Vikas Golla</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </PageLayout>
   );
 }
