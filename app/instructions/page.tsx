@@ -9,10 +9,6 @@ export default function Instructions() {
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Event Assignments</h2>
         <div className={`${styles.content} glass`}>
-          <p className={styles.intro}>
-            Events are divided into 7 groups, with 8 students per group:
-          </p>
-
           <div className={styles.groupsGrid}>
             <div className={styles.group}>
               <h3>Group 1</h3>

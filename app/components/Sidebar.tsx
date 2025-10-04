@@ -15,6 +15,7 @@ export default function Sidebar() {
     { href: "/resources", label: "Resources", icon: "📚" },
     { href: "/team-2025-2026", label: "2025-2026 Team", icon: "🎯" },
     { href: "/team-2024-2025", label: "2024-2025 Team", icon: "🏆" },
+    { href: "/team-2023-2024", label: "2023-2024 Team", icon: "⭐" },
   ];
 
   const handleLinkClick = () => {
