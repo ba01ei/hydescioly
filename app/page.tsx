@@ -1,5 +1,6 @@
 import PageLayout from "./components/PageLayout";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -27,31 +28,31 @@ export default function Home() {
       </div>
 
       <div className={styles.cards}>
-        <div className={`${styles.card} glass`}>
+        <Link href="/instructions" className={`${styles.card} glass`}>
           <div className={styles.cardIcon}>📋</div>
           <h2 className={styles.cardTitle}>Instructions</h2>
           <p className={styles.cardDesc}>
             Find guidelines, event assignments, team structure, and season
             timeline
           </p>
-        </div>
+        </Link>
 
-        <div className={`${styles.card} glass`}>
+        <Link href="/resources" className={`${styles.card} glass`}>
           <div className={styles.cardIcon}>📚</div>
           <h2 className={styles.cardTitle}>Resources</h2>
           <p className={styles.cardDesc}>
             Access study materials, practice tests, and helpful links for all
             events
           </p>
-        </div>
+        </Link>
 
-        <div className={`${styles.card} glass`}>
+        <Link href="/team-2025-2026" className={`${styles.card} glass`}>
           <div className={styles.cardIcon}>🏆</div>
-          <h2 className={styles.cardTitle}>2024-2025 Team</h2>
+          <h2 className={styles.cardTitle}>2025-2026 Team</h2>
           <p className={styles.cardDesc}>
             View our team members, competition results, and achievements
           </p>
-        </div>
+        </Link>
       </div>
 
       <section className={styles.about}>
