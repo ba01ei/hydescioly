@@ -26,6 +26,19 @@ export default function Resources() {
           name: "Event Coaching Resources",
           url: "https://scioly.org/wiki/index.php/Main_Page",
         },
+        {
+          name: "Cipher Challenge (Code Busters)",
+          links: [
+            {
+              label: " iOS/macOS",
+              url: "https://apps.apple.com/us/app/cipher-challenge-codebusters/id6742675455",
+            },
+            {
+              label: "Android/Windows",
+              url: "http://cipher.lei.fyi/",
+            },
+          ],
+        },
       ],
     },
     {
@@ -52,23 +65,54 @@ export default function Resources() {
         <section key={index} className={styles.section}>
           <h2 className={styles.sectionTitle}>{section.category}</h2>
           <div className={`${styles.resourcesGrid}`}>
-            {section.items.map((item, itemIndex) => (
-              <a
-                key={itemIndex}
-                href={item.url}
-                target={item.url.startsWith("http") ? "_blank" : undefined}
-                rel={
-                  item.url.startsWith("http")
-                    ? "noopener noreferrer"
-                    : undefined
-                }
-                className={`${styles.resourceCard} glass`}
-              >
-                <div className={styles.resourceIcon}>📄</div>
-                <div className={styles.resourceName}>{item.name}</div>
-                <div className={styles.resourceArrow}>→</div>
-              </a>
-            ))}
+            {section.items.map((item, itemIndex) => {
+              // Handle multi-link cards
+              if ("links" in item && item.links) {
+                return (
+                  <div
+                    key={itemIndex}
+                    className={`${styles.resourceCardMulti} glass`}
+                  >
+                    <div className={styles.multiCardHeader}>
+                      <div className={styles.resourceIcon}>📄</div>
+                      <div className={styles.resourceName}>{item.name}</div>
+                    </div>
+                    <div className={styles.multiLinks}>
+                      {item.links.map((link, linkIndex) => (
+                        <a
+                          key={linkIndex}
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={styles.linkButton}
+                        >
+                          {link.label}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+
+              // Handle single-link cards
+              return (
+                <a
+                  key={itemIndex}
+                  href={item.url}
+                  target={item.url.startsWith("http") ? "_blank" : undefined}
+                  rel={
+                    item.url.startsWith("http")
+                      ? "noopener noreferrer"
+                      : undefined
+                  }
+                  className={`${styles.resourceCard} glass`}
+                >
+                  <div className={styles.resourceIcon}>📄</div>
+                  <div className={styles.resourceName}>{item.name}</div>
+                  <div className={styles.resourceArrow}>→</div>
+                </a>
+              );
+            })}
           </div>
         </section>
       ))}
