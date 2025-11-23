@@ -136,6 +136,137 @@
   font-size: 1.0625rem;
 }
 
+/* Competition Results - Consolidated Box */
+.competitionResults {
+  padding: 2.5rem;
+  border-radius: 12px;
+}
+
+.resultsHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.competitionTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.officialLink {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background: var(--text-primary);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.officialLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.teamsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.teamCard {
+  padding: 1.5rem 1rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.teamName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.teamPlace {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.eventsSection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+}
+
+.eventsTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.eventsTable {
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.tableHeader,
+.tableRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+  padding: 0.75rem;
+}
+
+.tableHeader {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.tableRow {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableRow:hover {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+.eventName {
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.eventResult {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.eventTeam {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .pageTitle {
     font-size: 1.75rem;
@@ -182,5 +313,91 @@
 
   .statNumber {
     font-size: 2.5rem;
+  }
+
+  .competitionResults {
+    padding: 1.5rem;
+  }
+
+  .competitionTitle {
+    font-size: 1.5rem;
+  }
+
+  .officialLink {
+    font-size: 0.8125rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .teamsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .teamCard {
+    padding: 1rem 0.75rem;
+  }
+
+  .teamName {
+    font-size: 0.875rem;
+  }
+
+  .teamPlace {
+    font-size: 1.5rem;
+  }
+
+  .eventsSection {
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .eventsTitle {
+    font-size: 1.125rem;
+  }
+
+  .tableHeader,
+  .tableRow {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+    padding: 1rem;
+  }
+
+  .tableHeader {
+    display: none;
+  }
+
+  .tableRow {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .eventName {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .eventResult {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .eventTeam {
+    font-size: 0.8125rem;
+  }
+
+  .eventName::before {
+    content: "Event: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .eventResult::before {
+    content: "Rank: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .eventTeam::before {
+    content: "Team: ";
+    font-weight: 600;
+    color: var(--text-secondary);
   }
 }

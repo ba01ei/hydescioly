@@ -73,6 +73,159 @@ export default function Team2025_2026() {
       </p>
 
       <section className={styles.section}>
+        <div className={`${styles.competitionResults} glass`}>
+          <div className={styles.resultsHeader}>
+            <h2 className={styles.competitionTitle}>
+              Rickards Invitational - November 2025
+            </h2>
+            <a
+              href="https://scilympiad.com/rickards/Info/ResultsPdf/5b812c0d-fc3d-498c-8a3e-be807a2e4c1e"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.officialLink}
+            >
+              View Official Results →
+            </a>
+          </div>
+
+          <div className={styles.teamsGrid}>
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🟡 Hyde Gold</div>
+              <div className={styles.teamPlace}>29th</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🔵 Hyde Blue</div>
+              <div className={styles.teamPlace}>45th</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>⚪ Hyde White</div>
+              <div className={styles.teamPlace}>87th</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🟢 Hyde Green</div>
+              <div className={styles.teamPlace}>103rd</div>
+            </div>
+          </div>
+
+          <div className={styles.eventsSection}>
+            <h3 className={styles.eventsTitle}>Event Highlights</h3>
+            <div className={styles.eventsTable}>
+              <div className={styles.tableHeader}>
+                <div className={styles.eventName}>Event</div>
+                <div className={styles.eventResult}>Rank</div>
+                <div className={styles.eventTeam}>Team</div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Circuit Lab</div>
+                <div className={styles.eventResult}>🥇 1st</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 5</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Scrambler</div>
+                <div className={styles.eventResult}>8th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 1</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Scrambler</div>
+                <div className={styles.eventResult}>10th</div>
+                <div className={styles.eventTeam}>
+                  🔵 <strong>Group 1</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Write It Do It</div>
+                <div className={styles.eventResult}>15th</div>
+                <div className={styles.eventTeam}>
+                  🔵 <strong>Group 6</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Potions and Poisons</div>
+                <div className={styles.eventResult}>17th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Machines</div>
+                <div className={styles.eventResult}>18th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 2</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Codebusters</div>
+                <div className={styles.eventResult}>23rd</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 1</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Brainrot</div>
+                <div className={styles.eventResult}>24th</div>
+                <div className={styles.eventTeam}>🔵 Blue</div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Boomilever</div>
+                <div className={styles.eventResult}>25th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 6</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Dynamic Planet</div>
+                <div className={styles.eventResult}>25th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Boomilever</div>
+                <div className={styles.eventResult}>26th</div>
+                <div className={styles.eventTeam}>
+                  🔵 <strong>Group 6</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Heredity</div>
+                <div className={styles.eventResult}>27th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Crime Busters</div>
+                <div className={styles.eventResult}>30th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
         <div className={`${styles.rosterCard} glass`}>
           <h2 className={styles.sectionTitle}>Team Roster</h2>
           <p className={styles.totalCount}>{roster.length} Team Members</p>
