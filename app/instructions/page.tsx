@@ -140,12 +140,6 @@ export default function Instructions() {
               </div>
             </div>
             <div className={styles.timelineItem}>
-              <div className={styles.timelinePeriod}>January 17</div>
-              <div className={styles.timelineDesc}>
-                Mira Loma Invitational (Sacramento)
-              </div>
-            </div>
-            <div className={styles.timelineItem}>
               <div className={styles.timelinePeriod}>January 17-31</div>
               <div className={styles.timelineDesc}>
                 Stemboost Invitational (Remote)
