@@ -264,7 +264,7 @@ export default function Team() {
               <span className={styles.teamResult}>🟢 Green: 130</span>
             </div>
             <a
-              href="https://scilympiad.com/rickards/Info/Results/5b812c0d-fc3d-498c-8a3e-be807a2e4c1e"
+              href="https://www.duosmium.org/results/2024-11-02_rickards_invitational_b/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.detailsLink}
