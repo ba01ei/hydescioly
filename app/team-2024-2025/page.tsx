@@ -258,10 +258,10 @@ export default function Team() {
           <div className={`${styles.invitational} glass`}>
             <h3 className={styles.invitationalName}>Rickards Invitational</h3>
             <div className={styles.teamResults}>
-              <span className={styles.teamResult}>🟡 Gold: 63</span>
-              <span className={styles.teamResult}>🔵 Blue: 88</span>
-              <span className={styles.teamResult}>⚪ White: 98</span>
-              <span className={styles.teamResult}>🟢 Green: 130</span>
+              <span className={styles.teamResult}>🟡 Gold: 29</span>
+              <span className={styles.teamResult}>🔵 Blue: 45</span>
+              <span className={styles.teamResult}>⚪ White: 87</span>
+              <span className={styles.teamResult}>🟢 Green: 103</span>
             </div>
             <a
               href="https://scilympiad.com/rickards/Info/Results/5b812c0d-fc3d-498c-8a3e-be807a2e4c1e"
