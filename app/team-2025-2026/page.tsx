@@ -389,7 +389,7 @@ export default function Team2025_2026() {
               Rickards Invitational - November 2025
             </h2>
             <a
-              href="https://scilympiad.com/rickards/Info/ResultsPdf/5b812c0d-fc3d-498c-8a3e-be807a2e4c1e"
+              href="https://www.duosmium.org/results/2025-11-01_rickards_invitational_b/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.officialLink}
@@ -455,17 +455,9 @@ export default function Team2025_2026() {
 
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Write It Do It</div>
-                <div className={styles.eventResult}>15th</div>
+                <div className={styles.eventResult}>16th</div>
                 <div className={styles.eventTeam}>
                   🔵 <strong>Group 6</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Potions and Poisons</div>
-                <div className={styles.eventResult}>17th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
                 </div>
               </div>
 
@@ -474,6 +466,14 @@ export default function Team2025_2026() {
                 <div className={styles.eventResult}>18th</div>
                 <div className={styles.eventTeam}>
                   🟡 <strong>Group 2</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Potions and Poisons</div>
+                <div className={styles.eventResult}>19th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 7</strong> Gold
                 </div>
               </div>
 
@@ -493,7 +493,7 @@ export default function Team2025_2026() {
 
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>25th</div>
+                <div className={styles.eventResult}>26th</div>
                 <div className={styles.eventTeam}>
                   🟡 <strong>Group 6</strong> Gold
                 </div>
@@ -509,7 +509,7 @@ export default function Team2025_2026() {
 
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>26th</div>
+                <div className={styles.eventResult}>27th</div>
                 <div className={styles.eventTeam}>
                   🔵 <strong>Group 6</strong> Blue
                 </div>
