@@ -68,9 +68,6 @@ export default function Team2025_2026() {
   return (
     <PageLayout>
       <h1 className={styles.pageTitle}>2025-2026 Team</h1>
-      <p className={styles.pageSubtitle}>
-        Meet our talented team members for the 2025-2026 season
-      </p>
 
       <section className={styles.section}>
         <div className={`${styles.competitionResults} glass`}>
