@@ -140,14 +140,26 @@ export default function Instructions() {
               </div>
             </div>
             <div className={styles.timelineItem}>
+              <div className={styles.timelinePeriod}>November 14-18</div>
+              <div className={styles.timelineDesc}>
+                Monta Vista Invitational (Remote)
+              </div>
+            </div>
+            <div className={styles.timelineItem}>
+              <div className={styles.timelinePeriod}>December 1-6</div>
+              <div className={styles.timelineDesc}>
+                Boyceville Invitational (Remote)
+              </div>
+            </div>
+            <div className={styles.timelineItem}>
               <div className={styles.timelinePeriod}>January 17-31</div>
               <div className={styles.timelineDesc}>
                 Stemboost Invitational (Remote)
               </div>
             </div>
             <div className={styles.timelineItem}>
-              <div className={styles.timelinePeriod}>TBD</div>
-              <div className={styles.timelineDesc}>Kennedy Invitational</div>
+              <div className={styles.timelinePeriod}>February 28</div>
+              <div className={styles.timelineDesc}>Berkeley Invitational</div>
             </div>
             <div className={styles.timelineItem}>
               <div className={styles.timelinePeriod}>March 21</div>
@@ -156,7 +168,7 @@ export default function Instructions() {
               </div>
             </div>
             <div className={styles.timelineItem}>
-              <div className={styles.timelinePeriod}>April (TBD)</div>
+              <div className={styles.timelinePeriod}>April (If we make it)</div>
               <div className={styles.timelineDesc}>
                 NorCal State Competition
               </div>
