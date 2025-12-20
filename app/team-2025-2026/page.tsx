@@ -91,12 +91,12 @@ export default function Team2025_2026() {
           <div className={styles.teamsGrid}>
             <div className={styles.teamCard}>
               <div className={styles.teamName}>🟡 Hyde Gold</div>
-              <div className={styles.teamPlace}>29th</div>
+              <div className={styles.teamPlace}>27th</div>
             </div>
 
             <div className={styles.teamCard}>
               <div className={styles.teamName}>🔵 Hyde Blue</div>
-              <div className={styles.teamPlace}>45th</div>
+              <div className={styles.teamPlace}>47th</div>
             </div>
 
             <div className={styles.teamCard}>
@@ -218,6 +218,14 @@ export default function Team2025_2026() {
                 <div className={styles.eventResult}>30th</div>
                 <div className={styles.eventTeam}>
                   🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Experimental Design</div>
+                <div className={styles.eventResult}>30th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 1</strong> Gold
                 </div>
               </div>
             </div>
