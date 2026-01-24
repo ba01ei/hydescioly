@@ -140,7 +140,7 @@ export default function Instructions() {
               </div>
             </div>
             <div className={styles.timelineItem}>
-              <div className={styles.timelinePeriod}>November 14-18</div>
+              <div className={styles.timelinePeriod}>November 14-20</div>
               <div className={styles.timelineDesc}>
                 Monta Vista Invitational (Remote)
               </div>
@@ -152,19 +152,33 @@ export default function Instructions() {
               </div>
             </div>
             <div className={styles.timelineItem}>
-              <div className={styles.timelinePeriod}>January 17-31</div>
+              <div className={styles.timelinePeriod}>January 20-31</div>
               <div className={styles.timelineDesc}>
-                Stemboost Invitational (Remote)
+                California Invitational (Remote)
+              </div>
+            </div>
+            <div className={styles.timelineItem}>
+              <div className={styles.timelinePeriod}>February 7-14</div>
+              <div className={styles.timelineDesc}>
+                Chaboya Invitational (Remote)
+              </div>
+            </div>
+            <div className={styles.timelineItem}>
+              <div className={styles.timelinePeriod}>February 14-21</div>
+              <div className={styles.timelineDesc}>
+                JordonSO Invitational (Remote)
               </div>
             </div>
             <div className={styles.timelineItem}>
               <div className={styles.timelinePeriod}>February 28</div>
-              <div className={styles.timelineDesc}>Berkeley Invitational</div>
+              <div className={styles.timelineDesc}>
+                Berkeley Invitational (In-Person)
+              </div>
             </div>
             <div className={styles.timelineItem}>
               <div className={styles.timelinePeriod}>March 21</div>
               <div className={styles.timelineDesc}>
-                Santa Clara County Regionals
+                Santa Clara County Regionals (In-Person)
               </div>
             </div>
             <div className={styles.timelineItem}>
