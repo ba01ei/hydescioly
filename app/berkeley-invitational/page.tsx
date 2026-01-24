@@ -9,7 +9,7 @@ export default function BerkeleyInvitational() {
       <section className={styles.infoSection}>
         <div className={`${styles.infoGrid} glass`}>
           <div className={styles.infoCard}>
-            <div className={styles.infoIcon}>📅</div>
+            <div className={styles.infoIcon}>🗓️</div>
             <div className={styles.infoLabel}>Date</div>
             <div className={styles.infoValue}>February 28, 2026</div>
           </div>
