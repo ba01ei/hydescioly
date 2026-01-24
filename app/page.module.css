@@ -59,6 +59,27 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
+.featuredCard {
+  border: 2px solid rgba(33, 150, 243, 0.3);
+  background: linear-gradient(135deg, rgba(33, 150, 243, 0.08) 0%, rgba(255, 193, 7, 0.08) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.featuredCard::before {
+  content: "UPCOMING";
+  position: absolute;
+  top: 12px;
+  right: -32px;
+  background: linear-gradient(90deg, #2196f3, #ffc107);
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 0.25rem 2.5rem;
+  transform: rotate(45deg);
+  letter-spacing: 1px;
+}
+
 .cardIcon {
   font-size: 2.5rem;
   margin-bottom: 1rem;

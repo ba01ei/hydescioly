@@ -11,6 +11,7 @@ export default function Sidebar() {
 
   const navItems = [
     { href: "/", label: "Home", icon: "🏠" },
+    { href: "/berkeley-invitational", label: "Berkeley Invitational", icon: "🏛️" },
     { href: "/instructions", label: "Instructions", icon: "📋" },
     { href: "/resources", label: "Resources", icon: "📚" },
     { href: "/team-2025-2026", label: "2025-2026 Team", icon: "🎯" },
