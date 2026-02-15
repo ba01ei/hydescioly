@@ -1,0 +1,24 @@
+app/team-2025-2026/page.tsx
+  5cee54824dace01f 76-226
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.3",
+  "base_commit_sha": "854721f36d2ced854023fce7060f0d23549484e7",
+  "prompts": {
+    "5cee54824dace01f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f6d59cba-dbf4-4822-b9e8-fa1bd859a0a5",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 168,
+      "total_deletions": 13,
+      "accepted_lines": 155,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/eaf4584af04f3fe048ecd277405b92b15e0d1fdb33cdb813a254862ea5fbf703"
+    }
+  }
+}
