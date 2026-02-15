@@ -73,6 +73,161 @@ export default function Team2025_2026() {
         <div className={`${styles.competitionResults} glass`}>
           <div className={styles.resultsHeader}>
             <h2 className={styles.competitionTitle}>
+              California Invitational - January 2026
+            </h2>
+            <a
+              href="https://www.duosmium.org/results/2026-01-20_official_california_invitational_b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.officialLink}
+            >
+              View Official Results →
+            </a>
+          </div>
+
+          <div className={styles.teamsGrid}>
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🟡 Hyde Gold</div>
+              <div className={styles.teamPlace}>20th</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🔵 Hyde Blue</div>
+              <div className={styles.teamPlace}>32nd</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>⚪ Hyde White</div>
+              <div className={styles.teamPlace}>56th</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🟢 Hyde Green</div>
+              <div className={styles.teamPlace}>62nd</div>
+            </div>
+          </div>
+
+          <div className={styles.eventsSection}>
+            <h3 className={styles.eventsTitle}>Event Highlights</h3>
+            <div className={styles.eventsTable}>
+              <div className={styles.tableHeader}>
+                <div className={styles.eventName}>Event</div>
+                <div className={styles.eventResult}>Rank</div>
+                <div className={styles.eventTeam}>Team</div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Potions and Poisons</div>
+                <div className={styles.eventResult}>🥈 2nd</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Hovercraft</div>
+                <div className={styles.eventResult}>🥈 2nd</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 3</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Metric Mastery</div>
+                <div className={styles.eventResult}>🥉 3rd</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Mission Possible</div>
+                <div className={styles.eventResult}>5th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Crime Busters</div>
+                <div className={styles.eventResult}>6th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Circuit Lab</div>
+                <div className={styles.eventResult}>7th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 5</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Machines</div>
+                <div className={styles.eventResult}>12th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 2</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Hovercraft</div>
+                <div className={styles.eventResult}>14th</div>
+                <div className={styles.eventTeam}>
+                  ⚪ <strong>Group 3</strong> White
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Remote Sensing</div>
+                <div className={styles.eventResult}>14th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 2</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Heredity</div>
+                <div className={styles.eventResult}>16th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Boomilever</div>
+                <div className={styles.eventResult}>18th</div>
+                <div className={styles.eventTeam}>
+                  🟡 <strong>Group 6</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Write It Do It</div>
+                <div className={styles.eventResult}>19th</div>
+                <div className={styles.eventTeam}>
+                  🔵 <strong>Group 6</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Scrambler</div>
+                <div className={styles.eventResult}>19th</div>
+                <div className={styles.eventTeam}>
+                  🔵 <strong>Group 1</strong> Blue
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <div className={`${styles.competitionResults} glass`}>
+          <div className={styles.resultsHeader}>
+            <h2 className={styles.competitionTitle}>
               Boyceville Satellite Invitational - December 2025
             </h2>
             <a
