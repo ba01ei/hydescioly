@@ -271,6 +271,12 @@ export default function BerkeleyInvitational() {
               </div>
             </div>
 
+            <div className={`${styles.timeBlock} ${styles.photoBlock}`}>
+              <div className={styles.timeLabel}>4:10 - 4:45</div>
+              <div className={styles.timeDesc}>Hyde SciOly Team Photo Session</div>
+              <div className={styles.timeDetail}>Assemble at gathering area and go to photo location as directed by photo captain</div>
+            </div>
+
             <div className={`${styles.timeBlock} ${styles.awardsBlock}`}>
               <div className={styles.timeLabel}>5:30 - 7:00</div>
               <div className={styles.timeDesc}>Awards Ceremony</div>
