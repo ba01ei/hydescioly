@@ -56,6 +56,10 @@ export default function BerkeleyInvitational() {
                 <span className={styles.eventTime}>9:45-10:45</span>
               </div>
               <div className={styles.eventItem}>
+                <span className={styles.eventName}>Scrambler</span>
+                <span className={styles.eventTime}>11:00-12:00</span>
+              </div>
+              <div className={styles.eventItem}>
                 <span className={styles.eventName}>Meteorology</span>
                 <span className={styles.eventTime}>12:40-1:40</span>
               </div>
@@ -101,6 +105,14 @@ export default function BerkeleyInvitational() {
                 <span className={styles.eventName}>Entomology</span>
                 <span className={styles.eventTime}>9:45-10:45</span>
               </div>
+              <div className={styles.eventItem}>
+                <span className={styles.eventName}>Hovercraft (Blue)</span>
+                <span className={styles.eventTime}>12:40-1:40</span>
+              </div>
+              <div className={styles.eventItem}>
+                <span className={styles.eventName}>Hovercraft (Gold)</span>
+                <span className={styles.eventTime}>1:55-2:55</span>
+              </div>
             </div>
           </div>
 
@@ -113,9 +125,7 @@ export default function BerkeleyInvitational() {
               </div>
               <div className={styles.eventItem}>
                 <span className={styles.eventName}>Mission Possible</span>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-Scheduled</span>
-                </span>
+                <span className={styles.eventTime}>1:55-2:55</span>
               </div>
               <div className={styles.eventItem}>
                 <span className={styles.eventName}>Heredity</span>
@@ -133,9 +143,7 @@ export default function BerkeleyInvitational() {
               </div>
               <div className={styles.eventItem}>
                 <span className={styles.eventName}>Helicopter</span>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-Scheduled</span>
-                </span>
+                <span className={styles.eventTime}>11:00-12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <span className={styles.eventName}>Rocks and Minerals</span>
@@ -148,14 +156,12 @@ export default function BerkeleyInvitational() {
             <h3 className={styles.groupTitle}>Group 6</h3>
             <div className={styles.eventList}>
               <div className={styles.eventItem}>
-                <span className={styles.eventName}>Write It Do It</span>
-                <span className={styles.eventTime}>11:00-12:00</span>
+                <span className={styles.eventName}>Boomilever</span>
+                <span className={styles.eventTime}>8:30-9:30</span>
               </div>
               <div className={styles.eventItem}>
-                <span className={styles.eventName}>Boomilever</span>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-Scheduled</span>
-                </span>
+                <span className={styles.eventName}>Write It Do It</span>
+                <span className={styles.eventTime}>11:00-12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <span className={styles.eventName}>Disease Detectives</span>
@@ -203,6 +209,7 @@ export default function BerkeleyInvitational() {
             <div className={styles.timeBlock}>
               <div className={styles.timeLabel}>8:30 - 9:30</div>
               <div className={styles.timeEvents}>
+                <span className={styles.eventTag}>Boomilever</span>
                 <span className={styles.eventTag}>Circuit Lab</span>
                 <span className={styles.eventTag}>Dynamic Planet</span>
                 <span className={styles.eventTag}>Water Quality</span>
@@ -223,6 +230,8 @@ export default function BerkeleyInvitational() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Anatomy and Physiology</span>
                 <span className={styles.eventTag}>Crime Busters</span>
+                <span className={styles.eventTag}>Helicopter</span>
+                <span className={styles.eventTag}>Scrambler</span>
                 <span className={styles.eventTag}>Write It Do It</span>
               </div>
             </div>
@@ -235,6 +244,7 @@ export default function BerkeleyInvitational() {
             <div className={styles.timeBlock}>
               <div className={styles.timeLabel}>12:40 - 1:40</div>
               <div className={styles.timeEvents}>
+                <span className={styles.eventTag}>Hovercraft (Blue)</span>
                 <span className={styles.eventTag}>Machines</span>
                 <span className={styles.eventTag}>Meteorology</span>
                 <span className={styles.eventTag}>Metric Mastery</span>
@@ -246,6 +256,8 @@ export default function BerkeleyInvitational() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Code Busters</span>
                 <span className={styles.eventTag}>Disease Detectives</span>
+                <span className={styles.eventTag}>Hovercraft (Gold)</span>
+                <span className={styles.eventTag}>Mission Possible</span>
                 <span className={styles.eventTag}>Remote Sensing</span>
               </div>
             </div>
@@ -256,17 +268,6 @@ export default function BerkeleyInvitational() {
                 <span className={styles.eventTag}>Heredity</span>
                 <span className={styles.eventTag}>Potions and Poisons</span>
                 <span className={styles.eventTag}>Rocks and Minerals</span>
-              </div>
-            </div>
-
-            <div className={styles.timeBlock}>
-              <div className={styles.timeLabel}>Self-Scheduled</div>
-              <div className={styles.timeEvents}>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Boomilever</span>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Helicopter</span>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Hovercraft</span>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Mission Possible</span>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Scrambler</span>
               </div>
             </div>
 
