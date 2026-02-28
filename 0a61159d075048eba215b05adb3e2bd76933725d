@@ -1,0 +1,38 @@
+app/instructions/page.tsx
+  a8aa2be775364bdd 169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "0a61159d075048eba215b05adb3e2bd76933725d",
+  "prompts": {
+    "a8aa2be775364bdd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0f84702-4fe8-46d9-bbed-eb81620e8431",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/cc3c011b3e02ea0d6c96ac3c8c815f9ebb00719ae8544e2eaa52019ce9aea837"
+    },
+    "efd76e4a0ef1680c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "883cad6f-73d9-40b7-b3ac-065555095bda",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 559,
+      "total_deletions": 362,
+      "accepted_lines": 250,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/2fc576e08b513078f2c0845e1eae7a5d66bbc032d4185018d0a80c7c031e1ce4"
+    }
+  }
+}
