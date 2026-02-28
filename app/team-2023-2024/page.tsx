@@ -91,7 +91,7 @@ export default function Team20232024() {
             </div>
           </div>
           <a
-            href="https://www.duosmium.org/results/2024-03-16_CA_scc_regional_b/"
+            href="https://www.duosmium.org/results/2024-03-16_nCA_santa_clara_regional_b/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resultsLink}

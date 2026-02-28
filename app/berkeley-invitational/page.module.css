@@ -11,9 +11,10 @@
   margin-bottom: 3rem;
 }
 
+
 .infoGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 1.5rem;
   border-radius: 16px;
@@ -21,7 +22,7 @@
 
 .infoCard {
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 1.25rem 1rem;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 12px;
   transition: transform 0.2s ease;
@@ -31,13 +32,17 @@
   transform: translateY(-2px);
 }
 
+a.infoCard {
+  text-decoration: none;
+}
+
 .infoIcon {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .infoLabel {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--text-secondary);
@@ -46,9 +51,33 @@
 }
 
 .infoValue {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   color: var(--text-primary);
+}
+
+.infoHint {
+  font-size: 0.6875rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+  line-height: 1.3;
+}
+
+.teamBadge {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.infoLink {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #1565c0;
+  text-decoration: none;
+}
+
+.infoLink:hover {
+  text-decoration: underline;
 }
 
 .section {
@@ -61,6 +90,26 @@
   color: var(--text-primary);
   margin-bottom: 1rem;
   text-align: center;
+  scroll-margin-top: 1.5rem;
+}
+
+.anchorLink {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.anchorIcon {
+  opacity: 0;
+  margin-left: 0.375rem;
+  color: var(--text-secondary);
+  font-size: 0.875em;
+  font-weight: 400;
+  transition: opacity 0.2s ease;
+}
+
+.anchorLink:hover .anchorIcon {
+  opacity: 0.5;
 }
 
 .scheduleNote {
@@ -98,6 +147,7 @@
   color: var(--text-primary);
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
+  scroll-margin-top: 1.5rem;
   border-bottom: 2px solid var(--border);
   display: flex;
   align-items: center;
@@ -132,10 +182,28 @@
   background: rgba(255, 255, 255, 0.8);
 }
 
+.eventDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 .eventName {
   font-weight: 500;
   color: var(--text-primary);
   font-size: 0.9375rem;
+}
+
+.eventLocation {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.eventLocation:hover {
+  color: #1565c0;
+  text-decoration: underline;
 }
 
 .eventTime {
@@ -259,6 +327,19 @@
 .awardsBlock .timeDesc {
   color: #f57f17;
   font-weight: 600;
+}
+
+/* Campus Map */
+.mapContainer {
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.mapImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
