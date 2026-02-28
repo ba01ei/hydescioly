@@ -1,0 +1,26 @@
+app/berkeley-invitational/page.tsx
+  a8aa2be775364bdd 296-321
+app/berkeley-invitational/page.module.css
+  a8aa2be775364bdd 209-219
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "1a21bd11a119911bdae678846d0903ab41125ea9",
+  "prompts": {
+    "a8aa2be775364bdd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0f84702-4fe8-46d9-bbed-eb81620e8431",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 43,
+      "total_deletions": 5,
+      "accepted_lines": 38,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/ccd7883a2ad4d6e1ce5d418f5b5b51766973c4e4170d0ae807d2776272f6e800"
+    }
+  }
+}
