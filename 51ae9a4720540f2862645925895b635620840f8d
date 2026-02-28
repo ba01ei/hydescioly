@@ -1,0 +1,24 @@
+app/berkeley-invitational/page.tsx
+  a8aa2be775364bdd 300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "51ae9a4720540f2862645925895b635620840f8d",
+  "prompts": {
+    "a8aa2be775364bdd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0f84702-4fe8-46d9-bbed-eb81620e8431",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/e8f4fc22018a88a867e88a7eb2c87fc6d7dceda337564212ee50870dbb1f43bd"
+    }
+  }
+}
