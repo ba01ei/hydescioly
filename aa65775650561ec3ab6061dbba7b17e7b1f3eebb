@@ -1,0 +1,28 @@
+app/berkeley-invitational/page.module.css
+  efd76e4a0ef1680c 14,17,25,35-38,40-41,45,54,59-80,93-112,150,185-190,197-206,332-344
+app/berkeley-invitational/page.tsx
+  efd76e4a0ef1680c 18-19,21-22,27-32,36-40,44-48,50-55,60-62,66,69-72,78-81,85-88,92-95,99-102,109,112-115,119-122,126-129,136,139-142,148-151,155-158,162-165,169-172,179,182-185,189-192,196-199,206,209-212,216-219,223-226,233,236-239,243-246,250-253,260,263-266,270-273,277-280,284-287,296-307,312-313
+app/team-2023-2024/page.tsx
+  efd76e4a0ef1680c 94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "aa65775650561ec3ab6061dbba7b17e7b1f3eebb",
+  "prompts": {
+    "efd76e4a0ef1680c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "883cad6f-73d9-40b7-b3ac-065555095bda",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 238,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/2fc576e08b513078f2c0845e1eae7a5d66bbc032d4185018d0a80c7c031e1ce4"
+    }
+  }
+}
