@@ -297,6 +297,7 @@ export default function BerkeleyInvitational() {
           <a href="#awards" className={styles.anchorLink}>Award Ceremony<span className={styles.anchorIcon}>#</span></a>
         </h2>
         <div className={`${styles.content} glass`}>
+          <p className={styles.infoHint}>Medals for top 4 teams, trophies for top 4 schools</p>
           <div className={styles.eventList}>
             <div className={styles.eventItem}>
               <div className={styles.eventDetails}>
