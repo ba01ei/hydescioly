@@ -166,7 +166,7 @@ export default function Instructions() {
             <div className={styles.timelineItem}>
               <div className={styles.timelinePeriod}>February 14-21</div>
               <div className={styles.timelineDesc}>
-                JordonSO Invitational (Remote)
+                JordanSO Invitational (Remote)
               </div>
             </div>
             <div className={styles.timelineItem}>
