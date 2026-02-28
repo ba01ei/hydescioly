@@ -206,6 +206,17 @@ a.infoCard {
   text-decoration: underline;
 }
 
+.eventLocationLarge {
+  font-size: 0.875rem;
+  color: #1565c0;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.eventLocationLarge:hover {
+  color: #0d47a1;
+}
+
 .eventTime {
   display: flex;
   align-items: center;

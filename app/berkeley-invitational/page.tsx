@@ -293,6 +293,33 @@ export default function BerkeleyInvitational() {
       </section>
 
       <section className={styles.section}>
+        <h2 id="awards" className={styles.sectionTitle}>
+          <a href="#awards" className={styles.anchorLink}>Award Ceremony<span className={styles.anchorIcon}>#</span></a>
+        </h2>
+        <div className={`${styles.content} glass`}>
+          <div className={styles.eventList}>
+            <div className={styles.eventItem}>
+              <div className={styles.eventDetails}>
+                <a href="https://www.google.com/maps/place/Pimentel+Hall/@37.8734123,-122.2585925,16z/data=!3m1!4b1!4m6!3m5!1s0x80857c2492c492f3:0x32f43b40f867ecdb!8m2!3d37.8734123!4d-122.2560176!16s%2Fg%2F11xv78s35?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className={styles.eventLocationLarge}>Pimentel Hall</a>
+                <span className={styles.infoHint}>Chairs are for competitors and coaches only.</span>
+              </div>
+              <div className={styles.eventDetails}>
+                <span className={styles.eventTime}>5:30-7:00 PM</span>
+                <span className={styles.infoHint}>Coaches can pick up exams from McCone 340 after 7 PM.</span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.mapContainer}>
+            <img
+              src="/berkeley_award.png"
+              alt="Pimentel Hall seating chart"
+              className={styles.mapImage}
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
         <h2 id="map" className={styles.sectionTitle}>
           <a href="#map" className={styles.anchorLink}>Campus Map<span className={styles.anchorIcon}>#</span></a>
         </h2>
