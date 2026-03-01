@@ -1,0 +1,34 @@
+app/team-2024-2025/page.tsx
+  a8aa2be775364bdd 29
+app/berkeley-invitational/page.tsx
+  a8aa2be775364bdd 9-159
+app/page.tsx
+  a8aa2be775364bdd 31-39
+app/santa-clara-regional/page.tsx
+  a8aa2be775364bdd 1-179
+app/components/Sidebar.tsx
+  a8aa2be775364bdd 14
+app/berkeley-invitational/page.module.css
+  a8aa2be775364bdd 343-473,533-578
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "7c6193f64d95a89ddf0c3d7b597923eb0bb0582e",
+  "prompts": {
+    "a8aa2be775364bdd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0f84702-4fe8-46d9-bbed-eb81620e8431",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Bao Lei <bao@lei.fyi>",
+      "messages": [],
+      "total_additions": 526,
+      "total_deletions": 9,
+      "accepted_lines": 518,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/5854f52a4fe0540ea64f63fccaeaba0028c868f492b20044a2b13c3679fce80b"
+    }
+  }
+}
