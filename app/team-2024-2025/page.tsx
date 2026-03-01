@@ -26,7 +26,7 @@ export default function Team() {
             </div>
           </div>
           <a
-            href="https://scilympiad.com/santa-clara-so/Info/Results/0b4bff75-2c1c-474c-8509-8addf5ad5ab8"
+            href="https://www.duosmium.org/results/2025-03-15_nCA_santa_clara_regional_b/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resultsLink}

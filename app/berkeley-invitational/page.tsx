@@ -6,6 +6,157 @@ export default function BerkeleyInvitational() {
     <PageLayout>
       <h1 className={styles.pageTitle}>Berkeley Invitational 2026</h1>
 
+      <section className={styles.section}>
+        <div className={`${styles.competitionResults} glass`}>
+          <div className={styles.resultsHeader}>
+            <h2 className={styles.competitionTitle}>Results</h2>
+            <a
+              href="https://www.duosmium.org/results/2026-02-28_berkeley_invitational_b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.officialLink}
+            >
+              View Official Results →
+            </a>
+          </div>
+
+          <div className={styles.teamsGrid}>
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🟡 Hyde Gold</div>
+              <div className={styles.teamPlace}>10th</div>
+            </div>
+
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🔵 Hyde Blue</div>
+              <div className={styles.teamPlace}>15th</div>
+            </div>
+          </div>
+
+          <div className={styles.eventsSection}>
+            <h3 className={styles.eventsTitle}>Event Highlights</h3>
+            <div className={styles.eventsTable}>
+              <div className={styles.tableHeader}>
+                <div className={styles.resultName}>Event</div>
+                <div className={styles.resultRank}>Rank</div>
+                <div className={styles.resultTeam}>Team</div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Circuit Lab</div>
+                <div className={styles.resultRank}>🥇 1st</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 5</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Codebusters</div>
+                <div className={styles.resultRank}>🥇 1st</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 1</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Write It Do It</div>
+                <div className={styles.resultRank}>🥈 2nd</div>
+                <div className={styles.resultTeam}>
+                  🔵 <strong>Group 6</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Machines</div>
+                <div className={styles.resultRank}>🥉 3rd</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 2</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Codebusters</div>
+                <div className={styles.resultRank}>🥉 3rd</div>
+                <div className={styles.resultTeam}>
+                  🔵 <strong>Group 1</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Write It Do It</div>
+                <div className={styles.resultRank}>🏅 4th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 6</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Dynamic Planet</div>
+                <div className={styles.resultRank}>5th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Heredity</div>
+                <div className={styles.resultRank}>5th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 4</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Potions and Poisons</div>
+                <div className={styles.resultRank}>5th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Helicopter</div>
+                <div className={styles.resultRank}>6th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 5</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Circuit Lab</div>
+                <div className={styles.resultRank}>7th</div>
+                <div className={styles.resultTeam}>
+                  🔵 <strong>Group 5</strong> Blue
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Boomilever</div>
+                <div className={styles.resultRank}>8th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 6</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Remote Sensing</div>
+                <div className={styles.resultRank}>8th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 2</strong> Gold
+                </div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.resultName}>Solar System</div>
+                <div className={styles.resultRank}>8th</div>
+                <div className={styles.resultTeam}>
+                  🟡 <strong>Group 7</strong> Gold
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className={styles.infoSection}>
         <div className={`${styles.infoGrid} glass`}>
           <div className={styles.infoCard}>
