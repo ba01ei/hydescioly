@@ -9,8 +9,8 @@ export default function Home() {
       <div className={styles.teamPhotoSection}>
         <div className={`${styles.teamPhoto} glass`}>
           <Image
-            src="/2025team.jpg"
-            alt="Hyde Science Olympiad Team 2024-2025"
+            src="/2026team.jpg"
+            alt="Hyde Science Olympiad Team 2025-2026"
             width={1200}
             height={800}
             className={styles.teamImage}
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <div className={styles.cards}>
-        <Link href="/berkeley-invitational" className={`${styles.card} ${styles.featuredCard} glass`}>
+        <Link href="/berkeley-invitational" className={`${styles.card} glass`}>
           <div className={styles.cardIcon}>🏛️</div>
           <h2 className={styles.cardTitle}>Berkeley Invitational</h2>
           <p className={styles.cardDesc}>
