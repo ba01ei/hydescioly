@@ -36,6 +36,15 @@ export default function SantaClaraRegional() {
             <div className={styles.infoValue}>7:15 - 8:15 AM</div>
           </div>
 
+          <div className={styles.infoCard}>
+            <div className={styles.infoIcon}>📍</div>
+            <div className={styles.infoLabel}>Locations</div>
+            <div className={styles.infoValue}>
+              <a href="https://maps.app.goo.gl/nrdxhzuXHzmUmEqR9" target="_blank" rel="noopener noreferrer" className={styles.infoLink}>Parking</a>{" "}
+              <a href="https://maps.app.goo.gl/nrdxhzuXHzmUmEqR9" target="_blank" rel="noopener noreferrer" className={styles.infoLink}>Coach/Volunteer Check-in</a>
+            </div>
+          </div>
+
           <a className={styles.infoCard} href="https://docs.google.com/document/u/0/d/129GUeSgopXycYmoxLS19zYQg-bO6PLLZOH7KVxFLkvo/mobilebasic" target="_blank" rel="noopener noreferrer">
             <div className={styles.infoIcon}>📋</div>
             <div className={styles.infoLabel}>Detailed Info</div>
@@ -58,36 +67,43 @@ export default function SantaClaraRegional() {
             <div className={styles.eventList}>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
+                  <span className={styles.eventName}>Scrambler Impound</span>
+                  <a href="https://maps.app.goo.gl/7WzTXAxogm4ReaVw9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Large Gym</a>
+                </div>
+                <span className={styles.eventTime}>7:30 - 8:15</span>
+              </div>
+              <div className={styles.eventItem}>
+                <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Meteorology</span>
-                  <span className={styles.eventLocation}>E14</span>
+                  <a href="https://maps.app.goo.gl/24AyoAyjHBFREDXy5" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>E14</a>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Experimental Design</span>
-                  <span className={styles.eventLocation}>L47</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L47</a>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Codebusters</span>
-                  <span className={styles.eventLocation}>L15</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L15</a>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Scrambler (Gold/Blue)</span>
-                  <span className={styles.eventLocation}>Large Gym</span>
+                  <a href="https://maps.app.goo.gl/7WzTXAxogm4ReaVw9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Large Gym</a>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Scrambler (White)</span>
-                  <span className={styles.eventLocation}>Large Gym</span>
+                  <a href="https://maps.app.goo.gl/7WzTXAxogm4ReaVw9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Large Gym</a>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -100,21 +116,21 @@ export default function SantaClaraRegional() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Machines</span>
-                  <span className={styles.eventLocation}>L41</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L41</a>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Remote Sensing</span>
-                  <span className={styles.eventLocation}>E12</span>
+                  <a href="https://maps.app.goo.gl/24AyoAyjHBFREDXy5" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>E12</a>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Anatomy and Physiology</span>
-                  <span className={styles.eventLocation}>L01</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L01</a>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
@@ -126,22 +142,29 @@ export default function SantaClaraRegional() {
             <div className={styles.eventList}>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
+                  <span className={styles.eventName}>Hovercraft Impound</span>
+                  <a href="https://maps.app.goo.gl/7WzTXAxogm4ReaVw9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Large Gym</a>
+                </div>
+                <span className={styles.eventTime}>7:30 - 8:15</span>
+              </div>
+              <div className={styles.eventItem}>
+                <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Water Quality</span>
-                  <span className={styles.eventLocation}>L32</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L32</a>
                 </div>
                 <span className={styles.eventTime}>8:30 - 9:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Entomology</span>
-                  <span className={styles.eventLocation}>L14</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L14</a>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Hovercraft</span>
-                  <span className={styles.eventLocation}>Large Gym</span>
+                  <a href="https://maps.app.goo.gl/7WzTXAxogm4ReaVw9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Large Gym</a>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
@@ -154,28 +177,28 @@ export default function SantaClaraRegional() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Mission Possible (Gold/Blue)</span>
-                  <span className={styles.eventLocation}>Cafeteria</span>
+                  <a href="https://maps.app.goo.gl/xfcbHNM6JZpK5DUp9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Cafeteria</a>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Mission Possible (White)</span>
-                  <span className={styles.eventLocation}>Cafeteria</span>
+                  <a href="https://maps.app.goo.gl/xfcbHNM6JZpK5DUp9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Cafeteria</a>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Crime Busters</span>
-                  <span className={styles.eventLocation}>L33</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L33</a>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Heredity</span>
-                  <span className={styles.eventLocation}>L04</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L04</a>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -188,21 +211,28 @@ export default function SantaClaraRegional() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Circuit Lab</span>
-                  <span className={styles.eventLocation}>L03</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L03</a>
                 </div>
                 <span className={styles.eventTime}>8:30 - 9:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
-                  <span className={styles.eventName}>Helicopter</span>
-                  <span className={styles.eventLocation}>Small Gym</span>
+                  <span className={styles.eventName}>Helicopter (Gold/Blue)</span>
+                  <a href="https://maps.app.goo.gl/TxVukjDX2Dmnnv4n8" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Small Gym</a>
                 </div>
-                <span className={styles.eventTime}>9:45 - 10:45</span>
+                <span className={styles.eventTime}>12:15 - 1:15</span>
+              </div>
+              <div className={styles.eventItem}>
+                <div className={styles.eventDetails}>
+                  <span className={styles.eventName}>Helicopter (White)</span>
+                  <a href="https://maps.app.goo.gl/TxVukjDX2Dmnnv4n8" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Small Gym</a>
+                </div>
+                <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Rocks and Minerals</span>
-                  <span className={styles.eventLocation}>L06</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L06</a>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -215,21 +245,21 @@ export default function SantaClaraRegional() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Disease Detectives</span>
-                  <span className={styles.eventLocation}>L13</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L13</a>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Write It Do It</span>
-                  <span className={styles.eventLocation}>L05 / L23</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L05 / L23</a>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Boomilever</span>
-                  <span className={styles.eventLocation}>Cafeteria Platform</span>
+                  <a href="https://maps.app.goo.gl/xfcbHNM6JZpK5DUp9" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>Cafeteria Platform</a>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -242,28 +272,28 @@ export default function SantaClaraRegional() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Dynamic Planet</span>
-                  <span className={styles.eventLocation}>E15</span>
+                  <a href="https://maps.app.goo.gl/24AyoAyjHBFREDXy5" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>E15</a>
                 </div>
                 <span className={styles.eventTime}>8:30 - 9:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Metric Mastery</span>
-                  <span className={styles.eventLocation}>L44</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L44</a>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Solar System</span>
-                  <span className={styles.eventLocation}>E16</span>
+                  <a href="https://maps.app.goo.gl/24AyoAyjHBFREDXy5" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>E16</a>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Potions and Poisons</span>
-                  <span className={styles.eventLocation}>L46</span>
+                  <a href="https://maps.app.goo.gl/tKbMPQaH2t4WSnk19" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>L46</a>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -308,7 +338,6 @@ export default function SantaClaraRegional() {
             <div className={styles.timeBlock}>
               <div className={styles.timeLabel}>9:45 - 10:45</div>
               <div className={styles.timeEvents}>
-                <span className={styles.eventTag}>Helicopter</span>
                 <span className={styles.eventTag}>Machines</span>
                 <span className={styles.eventTag}>Meteorology</span>
                 <span className={styles.eventTag}>Metric Mastery</span>
@@ -330,6 +359,7 @@ export default function SantaClaraRegional() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Codebusters</span>
                 <span className={styles.eventTag}>Disease Detectives</span>
+                <span className={styles.eventTag}>Helicopter (Gold/Blue)</span>
                 <span className={styles.eventTag}>Mission Possible (White)</span>
                 <span className={styles.eventTag}>Remote Sensing</span>
               </div>
@@ -340,6 +370,7 @@ export default function SantaClaraRegional() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Anatomy and Physiology</span>
                 <span className={styles.eventTag}>Crime Busters</span>
+                <span className={styles.eventTag}>Helicopter (White)</span>
                 <span className={styles.eventTag}>Hovercraft</span>
                 <span className={styles.eventTag}>Scrambler (Gold/Blue)</span>
                 <span className={styles.eventTag}>Write It Do It</span>
@@ -355,6 +386,11 @@ export default function SantaClaraRegional() {
                 <span className={styles.eventTag}>Rocks and Minerals</span>
                 <span className={styles.eventTag}>Scrambler (White)</span>
               </div>
+            </div>
+
+            <div className={`${styles.timeBlock} ${styles.photoBlock}`}>
+              <div className={styles.timeLabel}>4:00</div>
+              <div className={styles.timeDesc}>Group Picture</div>
             </div>
 
             <div className={`${styles.timeBlock} ${styles.awardsBlock}`}>

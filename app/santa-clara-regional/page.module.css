@@ -195,15 +195,14 @@ a.infoCard {
 }
 
 .eventLocation {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  color: #42a5f5;
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .eventLocation:hover {
-  color: #1565c0;
-  text-decoration: underline;
+  color: #1e88e5;
 }
 
 .eventLocationLarge {
