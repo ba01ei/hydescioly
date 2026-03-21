@@ -41,7 +41,7 @@ export default function SantaClaraRegional() {
             <div className={styles.infoLabel}>Locations</div>
             <div className={styles.infoValue}>
               <a href="https://maps.app.goo.gl/nrdxhzuXHzmUmEqR9" target="_blank" rel="noopener noreferrer" className={styles.infoLink}>Parking</a>{" "}
-              <a href="https://maps.app.goo.gl/nrdxhzuXHzmUmEqR9" target="_blank" rel="noopener noreferrer" className={styles.infoLink}>Coach/Volunteer Check-in</a>
+              <a href="https://maps.app.goo.gl/Bv4TM4egxZeJbXVR7" target="_blank" rel="noopener noreferrer" className={styles.infoLink}>Coach/Volunteer Check-in</a>
             </div>
           </div>
 
