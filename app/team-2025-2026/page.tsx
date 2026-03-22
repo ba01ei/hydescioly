@@ -93,7 +93,6 @@ export default function Team2025_2026() {
               <li>2nd time qualifying for State in Hyde history</li>
               <li>1st time Hyde Gold earned 10+ medals at Regionals</li>
               <li>1st time Hyde White earned multiple medals at Regionals</li>
-              <li>1st time Hyde Blue earned multiple 3rd place (or better) medals at Regionals</li>
             </ul>
           </div>
 
