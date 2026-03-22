@@ -28,25 +28,7 @@ export default function Home() {
       </div>
 
       <div className={styles.cards}>
-        <Link href="/santa-clara-regional" className={`${styles.card} ${styles.featuredCard} glass`}>
-          <div className={styles.cardIcon}>🏆</div>
-          <h2 className={styles.cardTitle}>Santa Clara Regional</h2>
-          <p className={styles.cardDesc}>
-            View event schedule and competition details for
-            Mar 21, 2026
-          </p>
-        </Link>
-
-        <Link href="/berkeley-invitational" className={`${styles.card} glass`}>
-          <div className={styles.cardIcon}>🏛️</div>
-          <h2 className={styles.cardTitle}>Berkeley Invitational</h2>
-          <p className={styles.cardDesc}>
-            View team assignments, event schedule, and competition details for
-            Feb 28, 2026
-          </p>
-        </Link>
-
-        <Link href="/instructions" className={`${styles.card} glass`}>
+<Link href="/instructions" className={`${styles.card} glass`}>
           <div className={styles.cardIcon}>📋</div>
           <h2 className={styles.cardTitle}>Instructions</h2>
           <p className={styles.cardDesc}>
