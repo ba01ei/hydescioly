@@ -352,6 +352,165 @@ a.infoCard {
   border-radius: 8px;
 }
 
+/* Results Section */
+.resultsHighlight {
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.achievementBadge {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background: rgba(255, 193, 7, 0.15);
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #f57f17;
+  margin-bottom: 0.75rem;
+}
+
+.achievementTitle {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.achievementSubtitle {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.resultsLink {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background: var(--text-primary);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.resultsLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.teamsResultGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.teamResultCard {
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.teamResultName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.teamResultPlace {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.medalsTable {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.medalHeader,
+.medalRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+  padding: 0.75rem;
+}
+
+.medalHeader {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.medalRow {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.medalRow:last-child {
+  border-bottom: none;
+}
+
+.medalRow:hover {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+.medalEvent {
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.medalResult {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.medalTeam {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.stateAdvance {
+  padding: 1.5rem 2rem;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border: 2px solid rgba(76, 175, 80, 0.3);
+}
+
+.stateAdvanceTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.stateAdvanceList {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.stateAdvanceList li::before {
+  content: "✦ ";
+  color: #2e7d32;
+}
+
 @media (max-width: 768px) {
   .pageTitle {
     font-size: 1.75rem;
@@ -397,5 +556,59 @@ a.infoCard {
   .eventTag {
     padding: 0.375rem 0.625rem;
     font-size: 0.75rem;
+  }
+
+  .resultsHighlight {
+    padding: 1.5rem;
+  }
+
+  .achievementTitle {
+    font-size: 1.5rem;
+  }
+
+  .teamsResultGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .teamResultPlace {
+    font-size: 1.5rem;
+  }
+
+  .medalHeader,
+  .medalRow {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+    padding: 1rem;
+  }
+
+  .medalHeader {
+    display: none;
+  }
+
+  .medalRow {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .medalEvent::before {
+    content: "Event: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .medalResult::before {
+    content: "Rank: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .medalTeam::before {
+    content: "Team: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .stateAdvance {
+    padding: 1.25rem;
   }
 }

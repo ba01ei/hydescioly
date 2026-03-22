@@ -6,6 +6,140 @@ export default function SantaClaraRegional() {
     <PageLayout>
       <h1 className={styles.pageTitle}>Santa Clara County Regional 2026</h1>
 
+      <section className={styles.section}>
+        <h2 id="results" className={styles.sectionTitle}>
+          <a href="#results" className={styles.anchorLink}>Results<span className={styles.anchorIcon}>#</span></a>
+        </h2>
+        <div className={styles.stateAdvance}>
+          <div className={styles.stateAdvanceTitle}>
+            🎉 Hyde Advances to NorCal State Tournament!
+          </div>
+          <ul className={styles.stateAdvanceList}>
+            <li>2nd time qualifying for State in Hyde history</li>
+            <li>1st time Hyde Gold earned 10+ medals at Regionals</li>
+            <li>1st time Hyde White earned medals at Regionals</li>
+          </ul>
+        </div>
+
+        <div className={`${styles.resultsHighlight} glass`}>
+          <div className={styles.achievementBadge}>🏆 4th Place School Ranking</div>
+          <div className={styles.achievementTitle}>45 teams competed</div>
+          <a
+            href="https://scilympiad.com/santa-clara-so/Info/Results/0b4bff75-2c1c-474c-8509-8addf5ad5ab8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.resultsLink}
+          >
+            View Official Results →
+          </a>
+        </div>
+
+        <div className={styles.teamsResultGrid}>
+          <div className={`${styles.teamResultCard} glass`}>
+            <div className={styles.teamResultName}>🏫 Overall School</div>
+            <div className={styles.teamResultPlace}>4th</div>
+          </div>
+          <div className={`${styles.teamResultCard} glass`}>
+            <div className={styles.teamResultName}>🟡 Hyde Gold</div>
+            <div className={styles.teamResultPlace}>5th</div>
+          </div>
+          <div className={`${styles.teamResultCard} glass`}>
+            <div className={styles.teamResultName}>🔵 Hyde Blue</div>
+            <div className={styles.teamResultPlace}>11th</div>
+          </div>
+          <div className={`${styles.teamResultCard} glass`}>
+            <div className={styles.teamResultName}>⚪ Hyde White</div>
+            <div className={styles.teamResultPlace}>15th</div>
+          </div>
+        </div>
+
+        <h3 className={styles.sectionTitle}>Medal-Winning Events</h3>
+        <div className={`${styles.medalsTable} glass`}>
+          <div className={styles.medalHeader}>
+            <div className={styles.medalEvent}>Event</div>
+            <div className={styles.medalResult}>Placement</div>
+            <div className={styles.medalTeam}>Team</div>
+          </div>
+
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Experimental Design</div>
+            <div className={styles.medalResult}>🥇 1st</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Potions and Poisons</div>
+            <div className={styles.medalResult}>🥈 2nd</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Circuit Lab</div>
+            <div className={styles.medalResult}>🥉 3rd</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Codebusters</div>
+            <div className={styles.medalResult}>🥉 3rd</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Crime Busters</div>
+            <div className={styles.medalResult}>🥉 3rd</div>
+            <div className={styles.medalTeam}>🔵 Hyde Blue</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Experimental Design</div>
+            <div className={styles.medalResult}>🥉 3rd</div>
+            <div className={styles.medalTeam}>🔵 Hyde Blue</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Remote Sensing</div>
+            <div className={styles.medalResult}>🏅 4th</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Helicopter</div>
+            <div className={styles.medalResult}>5th</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Solar System</div>
+            <div className={styles.medalResult}>5th</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Write It Do It</div>
+            <div className={styles.medalResult}>5th</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Boomilever</div>
+            <div className={styles.medalResult}>6th</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Experimental Design</div>
+            <div className={styles.medalResult}>6th</div>
+            <div className={styles.medalTeam}>⚪ Hyde White</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Heredity</div>
+            <div className={styles.medalResult}>6th</div>
+            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Hovercraft</div>
+            <div className={styles.medalResult}>6th</div>
+            <div className={styles.medalTeam}>⚪ Hyde White</div>
+          </div>
+          <div className={styles.medalRow}>
+            <div className={styles.medalEvent}>Write It Do It</div>
+            <div className={styles.medalResult}>6th</div>
+            <div className={styles.medalTeam}>🔵 Hyde Blue</div>
+          </div>
+        </div>
+
+      </section>
+
       <section className={styles.infoSection}>
         <div className={`${styles.infoGrid} glass`}>
           <div className={styles.infoCard}>
