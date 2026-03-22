@@ -127,77 +127,77 @@ export default function Team2025_2026() {
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Experimental Design</div>
                 <div className={styles.eventResult}>🥇 1st</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 1</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Potions and Poisons</div>
                 <div className={styles.eventResult}>🥈 2nd</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 7</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Circuit Lab</div>
                 <div className={styles.eventResult}>🥉 3rd</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 5</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Codebusters</div>
                 <div className={styles.eventResult}>🥉 3rd</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 1</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Crime Busters</div>
                 <div className={styles.eventResult}>🥉 3rd</div>
-                <div className={styles.eventTeam}>🔵 Blue</div>
+                <div className={styles.eventTeam}>🔵 <strong>Group 4</strong> Blue</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Experimental Design</div>
                 <div className={styles.eventResult}>🥉 3rd</div>
-                <div className={styles.eventTeam}>🔵 Blue</div>
+                <div className={styles.eventTeam}>🔵 <strong>Group 1</strong> Blue</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Remote Sensing</div>
                 <div className={styles.eventResult}>🏅 4th</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 2</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Helicopter</div>
                 <div className={styles.eventResult}>5th</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 5</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Solar System</div>
                 <div className={styles.eventResult}>5th</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 7</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Write It Do It</div>
                 <div className={styles.eventResult}>5th</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 6</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Boomilever</div>
                 <div className={styles.eventResult}>6th</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 6</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Experimental Design</div>
                 <div className={styles.eventResult}>6th</div>
-                <div className={styles.eventTeam}>⚪ White</div>
+                <div className={styles.eventTeam}>⚪ <strong>Group 1</strong> White</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Heredity</div>
                 <div className={styles.eventResult}>6th</div>
-                <div className={styles.eventTeam}>🟡 Gold</div>
+                <div className={styles.eventTeam}>🟡 <strong>Group 4</strong> Gold</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Hovercraft</div>
                 <div className={styles.eventResult}>6th</div>
-                <div className={styles.eventTeam}>⚪ White</div>
+                <div className={styles.eventTeam}>⚪ <strong>Group 3</strong> White</div>
               </div>
               <div className={styles.tableRow}>
                 <div className={styles.eventName}>Write It Do It</div>
                 <div className={styles.eventResult}>6th</div>
-                <div className={styles.eventTeam}>🔵 Blue</div>
+                <div className={styles.eventTeam}>🔵 <strong>Group 6</strong> Blue</div>
               </div>
             </div>
           </div>

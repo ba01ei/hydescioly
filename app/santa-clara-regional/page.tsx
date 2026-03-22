@@ -64,77 +64,77 @@ export default function SantaClaraRegional() {
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Experimental Design</div>
             <div className={styles.medalResult}>🥇 1st</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 1</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Potions and Poisons</div>
             <div className={styles.medalResult}>🥈 2nd</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 7</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Circuit Lab</div>
             <div className={styles.medalResult}>🥉 3rd</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 5</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Codebusters</div>
             <div className={styles.medalResult}>🥉 3rd</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 1</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Crime Busters</div>
             <div className={styles.medalResult}>🥉 3rd</div>
-            <div className={styles.medalTeam}>🔵 Hyde Blue</div>
+            <div className={styles.medalTeam}>🔵 <strong>Group 4</strong> Blue</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Experimental Design</div>
             <div className={styles.medalResult}>🥉 3rd</div>
-            <div className={styles.medalTeam}>🔵 Hyde Blue</div>
+            <div className={styles.medalTeam}>🔵 <strong>Group 1</strong> Blue</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Remote Sensing</div>
             <div className={styles.medalResult}>🏅 4th</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 2</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Helicopter</div>
             <div className={styles.medalResult}>5th</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 5</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Solar System</div>
             <div className={styles.medalResult}>5th</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 7</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Write It Do It</div>
             <div className={styles.medalResult}>5th</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 6</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Boomilever</div>
             <div className={styles.medalResult}>6th</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 6</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Experimental Design</div>
             <div className={styles.medalResult}>6th</div>
-            <div className={styles.medalTeam}>⚪ Hyde White</div>
+            <div className={styles.medalTeam}>⚪ <strong>Group 1</strong> White</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Heredity</div>
             <div className={styles.medalResult}>6th</div>
-            <div className={styles.medalTeam}>🟡 Hyde Gold</div>
+            <div className={styles.medalTeam}>🟡 <strong>Group 4</strong> Gold</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Hovercraft</div>
             <div className={styles.medalResult}>6th</div>
-            <div className={styles.medalTeam}>⚪ Hyde White</div>
+            <div className={styles.medalTeam}>⚪ <strong>Group 3</strong> White</div>
           </div>
           <div className={styles.medalRow}>
             <div className={styles.medalEvent}>Write It Do It</div>
             <div className={styles.medalResult}>6th</div>
-            <div className={styles.medalTeam}>🔵 Hyde Blue</div>
+            <div className={styles.medalTeam}>🔵 <strong>Group 6</strong> Blue</div>
           </div>
         </div>
 
