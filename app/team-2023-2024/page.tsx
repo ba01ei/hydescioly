@@ -48,7 +48,7 @@ export default function Team20232024() {
             <div className={styles.stateBadge}>🏆 Historic Achievement</div>
             <h3 className={styles.stateTitle}>5th Place at State</h3>
             <p className={styles.stateDesc}>
-              The first and only year in Hyde Science Olympiad history that we
+              The first year in Hyde Science Olympiad history that we
               qualified for and competed at the Northern California State
               Tournament!
             </p>
