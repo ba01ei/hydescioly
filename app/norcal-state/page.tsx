@@ -42,7 +42,7 @@ export default function NorCalState() {
           <a href="#schedule" className={styles.anchorLink}>Event Schedule by Group<span className={styles.anchorIcon}>#</span></a>
         </h2>
         <p className={styles.scheduleNote}>
-          Schedule for team B01 (in the B01-11 group). Self-scheduled event times are TBD.
+          Schedule for team B01 (in the B01-11 group).
         </p>
 
         <div className={styles.scheduleGrid}>
@@ -63,6 +63,12 @@ export default function NorCalState() {
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
+                  <span className={styles.eventName}>Scrambler</span>
+                </div>
+                <span className={styles.eventTime}>11:00 - 12:00</span>
+              </div>
+              <div className={styles.eventItem}>
+                <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Experimental Design</span>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
@@ -72,14 +78,6 @@ export default function NorCalState() {
                   <span className={styles.eventName}>Codebusters</span>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
-              </div>
-              <div className={styles.eventItem}>
-                <div className={styles.eventDetails}>
-                  <span className={styles.eventName}>Scrambler</span>
-                </div>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-scheduled</span>
-                </span>
               </div>
             </div>
           </div>
@@ -133,9 +131,7 @@ export default function NorCalState() {
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Hovercraft</span>
                 </div>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-scheduled</span>
-                </span>
+                <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
             </div>
           </div>
@@ -165,9 +161,7 @@ export default function NorCalState() {
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Mission Possible</span>
                 </div>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-scheduled</span>
-                </span>
+                <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
             </div>
           </div>
@@ -191,9 +185,7 @@ export default function NorCalState() {
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Helicopter</span>
                 </div>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-scheduled</span>
-                </span>
+                <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
             </div>
           </div>
@@ -203,23 +195,21 @@ export default function NorCalState() {
             <div className={styles.eventList}>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
+                  <span className={styles.eventName}>Boomilever</span>
+                </div>
+                <span className={styles.eventTime}>9:45 - 10:45</span>
+              </div>
+              <div className={styles.eventItem}>
+                <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Write It Do It</span>
                 </div>
-                <span className={styles.eventTime}>8:30 - 9:30</span>
+                <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Disease Detectives</span>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
-              </div>
-              <div className={styles.eventItem}>
-                <div className={styles.eventDetails}>
-                  <span className={styles.eventName}>Boomilever</span>
-                </div>
-                <span className={styles.eventTime}>
-                  <span className={styles.selfScheduledBadge}>Self-scheduled</span>
-                </span>
               </div>
             </div>
           </div>
@@ -285,13 +275,13 @@ export default function NorCalState() {
                 <span className={styles.eventTag}>Heredity</span>
                 <span className={styles.eventTag}>Potions & Poisons</span>
                 <span className={styles.eventTag}>Rocks and Minerals</span>
-                <span className={styles.eventTag}>Write It Do It</span>
               </div>
             </div>
 
             <div className={styles.timeBlock}>
               <div className={styles.timeLabel}>9:45 - 10:45</div>
               <div className={styles.timeEvents}>
+                <span className={styles.eventTag}>Boomilever</span>
                 <span className={styles.eventTag}>Code Craze (Trial)</span>
                 <span className={styles.eventTag}>Machines</span>
                 <span className={styles.eventTag}>Meteorology</span>
@@ -304,6 +294,7 @@ export default function NorCalState() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Circuit Lab</span>
                 <span className={styles.eventTag}>Dynamic Planet</span>
+                <span className={styles.eventTag}>Scrambler</span>
                 <span className={styles.eventTag}>Water Quality</span>
               </div>
             </div>
@@ -313,6 +304,7 @@ export default function NorCalState() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Anatomy & Physiology</span>
                 <span className={styles.eventTag}>Crime Busters</span>
+                <span className={styles.eventTag}>Write It Do It</span>
               </div>
             </div>
 
@@ -321,6 +313,7 @@ export default function NorCalState() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Entomology</span>
                 <span className={styles.eventTag}>Experimental Design</span>
+                <span className={styles.eventTag}>Helicopter</span>
                 <span className={styles.eventTag}>Solar System</span>
               </div>
             </div>
@@ -330,18 +323,9 @@ export default function NorCalState() {
               <div className={styles.timeEvents}>
                 <span className={styles.eventTag}>Codebusters</span>
                 <span className={styles.eventTag}>Disease Detectives</span>
+                <span className={styles.eventTag}>Hovercraft</span>
+                <span className={styles.eventTag}>Mission Possible</span>
                 <span className={styles.eventTag}>Remote Sensing</span>
-              </div>
-            </div>
-
-            <div className={styles.timeBlock}>
-              <div className={styles.timeLabel}>Self-Scheduled</div>
-              <div className={styles.timeEvents}>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Boomilever</span>
-                <span className={`${styles.eventTag} ${styles.selfScheduledTag}`}>Helicopter</span>
-                <span className={`${styles.eventTag} ${styles.impoundTag}`}>Hovercraft</span>
-                <span className={`${styles.eventTag} ${styles.impoundTag}`}>Mission Possible</span>
-                <span className={`${styles.eventTag} ${styles.impoundTag}`}>Scrambler</span>
               </div>
             </div>
 
