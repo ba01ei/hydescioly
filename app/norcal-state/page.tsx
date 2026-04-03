@@ -59,7 +59,7 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Meteorology</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S337</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-3" className={styles.eventLocation}>S337</a></span>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
@@ -73,14 +73,14 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Experimental Design</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S205</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-2" className={styles.eventLocation}>S205</a></span>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Codebusters</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S213</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-2" className={styles.eventLocation}>S213</a></span>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -93,21 +93,21 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Machines</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S125</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-1" className={styles.eventLocation}>S125</a></span>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Anatomy & Physiology</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N307</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-3" className={styles.eventLocation}>N307</a></span>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Remote Sensing</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S247</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-2" className={styles.eventLocation}>S247</a></span>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -127,14 +127,14 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Water Quality</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S302</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-3" className={styles.eventLocation}>S302</a></span>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Entomology</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N215</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-2" className={styles.eventLocation}>N215</a></span>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
@@ -154,28 +154,28 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Mission Possible Impound</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N142</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-1" className={styles.eventLocation}>N142</a></span>
                 </div>
                 <span className={styles.eventTime}>7:15 - 8:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Heredity</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N206</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-2" className={styles.eventLocation}>N206</a></span>
                 </div>
                 <span className={styles.eventTime}>8:30 - 9:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Crime Busters</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S321</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-3" className={styles.eventLocation}>S321</a></span>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Mission Possible</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N142</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-1" className={styles.eventLocation}>N142</a></span>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -188,14 +188,14 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Rocks and Minerals</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N212</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-2" className={styles.eventLocation}>N212</a></span>
                 </div>
                 <span className={styles.eventTime}>8:30 - 9:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Circuit Lab</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N346</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-3" className={styles.eventLocation}>N346</a></span>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
@@ -215,21 +215,21 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Boomilever</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N108</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-1" className={styles.eventLocation}>N108</a></span>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Write It Do It</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N437/N436</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-4" className={styles.eventLocation}>N437/N436</a></span>
                 </div>
                 <span className={styles.eventTime}>12:15 - 1:15</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Disease Detectives</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N207</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-2" className={styles.eventLocation}>N207</a></span>
                 </div>
                 <span className={styles.eventTime}>2:45 - 3:45</span>
               </div>
@@ -242,28 +242,28 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Potions & Poisons</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S437</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-4" className={styles.eventLocation}>S437</a></span>
                 </div>
                 <span className={styles.eventTime}>8:30 - 9:30</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Metric Mastery</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N119</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-1" className={styles.eventLocation}>N119</a></span>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Dynamic Planet</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N104</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-1" className={styles.eventLocation}>N104</a></span>
                 </div>
                 <span className={styles.eventTime}>11:00 - 12:00</span>
               </div>
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Solar System</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N N112</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-N</a>{" "}<a href="#floor-1" className={styles.eventLocation}>N112</a></span>
                 </div>
                 <span className={styles.eventTime}>1:30 - 2:30</span>
               </div>
@@ -276,7 +276,7 @@ export default function NorCalState() {
               <div className={styles.eventItem}>
                 <div className={styles.eventDetails}>
                   <span className={styles.eventName}>Code Craze</span>
-                  <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S S138</a>
+                  <span className={styles.eventLocationGroup}><a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.eventLocation}>SC-S</a>{" "}<a href="#floor-1" className={styles.eventLocation}>S138</a></span>
                 </div>
                 <span className={styles.eventTime}>9:45 - 10:45</span>
               </div>
@@ -289,17 +289,21 @@ export default function NorCalState() {
         <h2 id="maps" className={styles.sectionTitle}>
           <a href="#maps" className={styles.anchorLink}>Science Building Room Maps<span className={styles.anchorIcon}>#</span></a>
         </h2>
-        <div className={`${styles.mapContainer} glass`}>
+        <div id="floor-1" className={`${styles.mapContainer} glass`}>
           <img src="/1st-floor.png" alt="CSU East Bay Science Buildings 1st floor map" className={styles.mapImage} />
           <p className={styles.mapLabel}>1st Floor</p>
         </div>
-        <div className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
+        <div id="floor-2" className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
           <img src="/2nd-floor.png" alt="CSU East Bay Science Buildings 2nd floor map" className={styles.mapImage} />
           <p className={styles.mapLabel}>2nd Floor</p>
         </div>
-        <div className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
+        <div id="floor-3" className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
           <img src="/3rd-floor.png" alt="CSU East Bay Science Buildings 3rd floor map" className={styles.mapImage} />
           <p className={styles.mapLabel}>3rd Floor</p>
+        </div>
+        <div id="floor-4" className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
+          <img src="/4th-floor.png" alt="CSU East Bay Science Buildings 4th floor map" className={styles.mapImage} />
+          <p className={styles.mapLabel}>4th Floor</p>
         </div>
       </section>
 
