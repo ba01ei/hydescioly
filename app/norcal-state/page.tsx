@@ -30,9 +30,9 @@ export default function NorCalState() {
           </div>
 
           <div className={styles.infoCard}>
-            <div className={styles.infoIcon}>📝</div>
-            <div className={styles.infoLabel}>Registration</div>
-            <div className={styles.infoValue}>7:15 - 8:15 AM</div>
+            <div className={styles.infoIcon}>🏠</div>
+            <div className={styles.infoLabel}>Home Base</div>
+            <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.infoHintLink}>N-120</a>
           </div>
         </div>
       </section>
