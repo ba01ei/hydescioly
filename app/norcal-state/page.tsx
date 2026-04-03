@@ -286,6 +286,24 @@ export default function NorCalState() {
       </section>
 
       <section className={styles.section}>
+        <h2 id="maps" className={styles.sectionTitle}>
+          <a href="#maps" className={styles.anchorLink}>Campus Maps<span className={styles.anchorIcon}>#</span></a>
+        </h2>
+        <div className={`${styles.mapContainer} glass`}>
+          <img src="/1st-floor.png" alt="CSU East Bay Science Buildings 1st floor map" className={styles.mapImage} />
+          <p className={styles.mapLabel}>1st Floor</p>
+        </div>
+        <div className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
+          <img src="/2nd-floor.png" alt="CSU East Bay Science Buildings 2nd floor map" className={styles.mapImage} />
+          <p className={styles.mapLabel}>2nd Floor</p>
+        </div>
+        <div className={`${styles.mapContainer} glass`} style={{ marginTop: '1rem' }}>
+          <img src="/3rd-floor.png" alt="CSU East Bay Science Buildings 3rd floor map" className={styles.mapImage} />
+          <p className={styles.mapLabel}>3rd Floor</p>
+        </div>
+      </section>
+
+      <section className={styles.section}>
         <h2 id="overview" className={styles.sectionTitle}>
           <a href="#overview" className={styles.anchorLink}>Day Overview<span className={styles.anchorIcon}>#</span></a>
         </h2>

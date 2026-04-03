@@ -314,6 +314,26 @@ a.infoCard {
   font-weight: 600;
 }
 
+/* Campus Maps */
+.mapContainer {
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.mapImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.mapLabel {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .pageTitle {
     font-size: 1.75rem;
