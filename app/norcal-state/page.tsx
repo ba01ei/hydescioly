@@ -287,7 +287,7 @@ export default function NorCalState() {
 
       <section className={styles.section}>
         <h2 id="maps" className={styles.sectionTitle}>
-          <a href="#maps" className={styles.anchorLink}>Campus Maps<span className={styles.anchorIcon}>#</span></a>
+          <a href="#maps" className={styles.anchorLink}>Science Building Room Maps<span className={styles.anchorIcon}>#</span></a>
         </h2>
         <div className={`${styles.mapContainer} glass`}>
           <img src="/1st-floor.png" alt="CSU East Bay Science Buildings 1st floor map" className={styles.mapImage} />
