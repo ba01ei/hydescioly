@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "NorCal State 2026",
+  description:
+    "Hyde Science Olympiad at the 2026 NorCal State Tournament at CSU East Bay. 5th place out of 32 teams with a record 13 medals. Full results, event schedule, and campus maps.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2025-2026/norcal-state" },
+};
 
 export default function NorCalState() {
   return (

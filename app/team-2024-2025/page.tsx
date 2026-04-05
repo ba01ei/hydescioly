@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "2024-2025 Team",
+  description:
+    "Hyde Science Olympiad 2024-2025 season. 5th place at Santa Clara County Regionals with 12 medals. Team roster, invitational results, and competition highlights.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2024-2025" },
+};
 
 export default function Team() {
   return (

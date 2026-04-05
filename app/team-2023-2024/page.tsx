@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "2023-2024 Team",
+  description:
+    "Hyde Science Olympiad 2023-2024 season. Historic first-ever State qualification, 5th place at NorCal State, 3rd place at Santa Clara County Regionals.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2023-2024" },
+};
 
 export default function Team20232024() {
   return (

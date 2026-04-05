@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import PageLayout from "./components/PageLayout";
+
+export const metadata: Metadata = {
+  title: "Hyde Science Olympiad | Cupertino, CA",
+  description:
+    "Official website of the Hyde Middle School Science Olympiad team in Cupertino, California. Two-time NorCal State qualifier with competition results, team roster, and resources.",
+  alternates: { canonical: "https://scioly.hydeptsa.org" },
+};
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";

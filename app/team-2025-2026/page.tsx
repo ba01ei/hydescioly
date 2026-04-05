@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PageLayout from "../components/PageLayout";
+
+export const metadata: Metadata = {
+  title: "2025-2026 Team",
+  description:
+    "Hyde Science Olympiad 2025-2026 season results. 5th place at NorCal State with record-breaking 13 medals, 4th place school ranking at Santa Clara County Regionals. Team roster and competition history.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2025-2026" },
+};
 import styles from "./page.module.css";
 
 export default function Team2025_2026() {

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "Berkeley Invitational 2026",
+  description:
+    "Hyde Science Olympiad at the 2026 Berkeley Invitational. Competition results, event placements, and team performance.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2025-2026/berkeley-invitational" },
+};
 
 export default function BerkeleyInvitational() {
   return (

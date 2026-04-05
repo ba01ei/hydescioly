@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "Santa Clara Regional 2026",
+  description:
+    "Hyde Science Olympiad at the 2026 Santa Clara County Regional. 4th place school ranking, 15 medals, and State qualification. Full results and event schedule.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2025-2026/santa-clara-regional" },
+};
 
 export default function SantaClaraRegional() {
   return (

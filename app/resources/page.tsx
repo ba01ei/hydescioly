@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "Resources",
+  description:
+    "Study materials, practice tests, and helpful links for Hyde Science Olympiad team members across all 23 events.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/resources" },
+};
 
 export default function Resources() {
   const resources = [

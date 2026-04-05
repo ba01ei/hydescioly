@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import PageLayout from "../../components/PageLayout";
 import styles from "./page.module.css";
+
+export const metadata: Metadata = {
+  title: "Instructions & Guidelines",
+  description:
+    "Hyde Science Olympiad team instructions, event group assignments, donation info, and season guidelines for the 2025-2026 season.",
+  alternates: { canonical: "https://scioly.hydeptsa.org/team-2025-2026/instructions" },
+};
 
 export default function Instructions() {
   return (
