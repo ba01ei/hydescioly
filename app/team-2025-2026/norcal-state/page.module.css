@@ -318,6 +318,136 @@ a.infoCard {
   font-weight: 600;
 }
 
+/* Record Callout */
+.recordCallout {
+  padding: 1rem 1.5rem;
+  background: rgba(255, 193, 7, 0.12);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+  border: 2px solid rgba(255, 193, 7, 0.3);
+}
+
+.recordTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #f57f17;
+}
+
+/* Tournament Results */
+.resultsBox {
+  padding: 2.5rem;
+  border-radius: 12px;
+}
+
+.overallPlace {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.placeNumber {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.placeLabel {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.resultsTable {
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.resultsTableHeader,
+.resultsTableRow {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 1.5fr;
+  gap: 1rem;
+  padding: 0.75rem;
+}
+
+.resultsTableHeader {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.resultsTableRow {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.resultsTableRow:last-child {
+  border-bottom: none;
+}
+
+.resultsTableRow:hover {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+.medalRow {
+  background: rgba(255, 193, 7, 0.06);
+}
+
+.medalRow:hover {
+  background: rgba(255, 193, 7, 0.12);
+}
+
+.trialRow {
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+  margin-top: 0.25rem;
+}
+
+.resultEvent {
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.resultRank {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.resultPlace {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.groupTag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1565c0;
+  background: rgba(21, 101, 192, 0.1);
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+
+.trialBadge {
+  font-size: 0.7rem;
+  padding: 0.125rem 0.375rem;
+  background: rgba(156, 39, 176, 0.15);
+  color: #7b1fa2;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-left: 0.25rem;
+}
+
 /* Campus Maps */
 .mapContainer {
   padding: 1.5rem;
@@ -359,6 +489,57 @@ a.infoCard {
 
   .infoValue {
     font-size: 1rem;
+  }
+
+  .resultsBox {
+    padding: 1.5rem;
+  }
+
+  .placeNumber {
+    font-size: 2.5rem;
+  }
+
+  .resultsTableHeader {
+    display: none;
+  }
+
+  .resultsTableRow {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .resultEvent {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .resultRank {
+    text-align: left;
+    font-size: 0.875rem;
+  }
+
+  .resultPlace {
+    font-size: 0.875rem;
+  }
+
+  .resultEvent::before {
+    content: "Event: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .resultRank::before {
+    content: "Raw: ";
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .resultPlace::before {
+    content: "Place: ";
+    font-weight: 600;
+    color: var(--text-secondary);
   }
 
   .scheduleGrid {

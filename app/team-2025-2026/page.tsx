@@ -1,3 +1,4 @@
+import Link from "next/link";
 import PageLayout from "../components/PageLayout";
 import styles from "./page.module.css";
 
@@ -68,6 +69,145 @@ export default function Team2025_2026() {
   return (
     <PageLayout>
       <h1 className={styles.pageTitle}>2025-2026 Team</h1>
+      <p className={styles.pageSubtitle}>
+        Second time State qualifier with a record-breaking 13 medals at NorCal State!
+      </p>
+
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Season Highlights</h2>
+        <div className={styles.highlightsGrid}>
+          <div className={`${styles.highlightCard} glass`}>
+            <div className={styles.highlightNumber}>5th</div>
+            <div className={styles.highlightLabel}>NorCal State</div>
+          </div>
+
+          <div className={`${styles.highlightCard} glass`}>
+            <div className={styles.highlightNumber}>4th</div>
+            <div className={styles.highlightLabel}>Regional School Ranking</div>
+          </div>
+
+          <div className={`${styles.highlightCard} glass`}>
+            <div className={styles.highlightNumber}>13</div>
+            <div className={styles.highlightLabel}>State Medals (New Record)</div>
+          </div>
+
+          <div className={`${styles.highlightCard} glass`}>
+            <div className={styles.highlightNumber}>15</div>
+            <div className={styles.highlightLabel}>Regional Medals</div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <div className={`${styles.competitionResults} glass`}>
+          <div className={styles.resultsHeader}>
+            <h2 className={styles.competitionTitle}>
+              NorCal State Tournament - April 2026
+            </h2>
+            <a
+              href="https://www.duosmium.org/results/2026-04-04_nCA_states_b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.officialLink}
+            >
+              View Official Results →
+            </a>
+          </div>
+
+          <div className={styles.recordCallout}>
+            <div className={styles.recordTitle}>🏆 New Record: 13 medals in State competition</div>
+          </div>
+
+          <div className={styles.teamsGrid}>
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>🟡 Hyde (B01)</div>
+              <div className={styles.teamPlace}>5th</div>
+            </div>
+            <div className={styles.teamCard}>
+              <div className={styles.teamName}>Teams</div>
+              <div className={styles.teamPlace}>32</div>
+            </div>
+          </div>
+
+          <div className={styles.eventsSection}>
+            <h3 className={styles.eventsTitle}>Medal-Winning Events (Top 6)</h3>
+            <div className={styles.eventsTable}>
+              <div className={styles.tableHeader}>
+                <div className={styles.eventName}>Event</div>
+                <div className={styles.eventResult}>Rank</div>
+                <div className={styles.eventTeam}>Group</div>
+              </div>
+
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Anatomy and Physiology</div>
+                <div className={styles.eventResult}>🥈 2nd</div>
+                <div className={styles.eventTeam}><strong>Group 2</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Circuit Lab</div>
+                <div className={styles.eventResult}>🥈 2nd</div>
+                <div className={styles.eventTeam}><strong>Group 5</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Dynamic Planet</div>
+                <div className={styles.eventResult}>🥈 2nd</div>
+                <div className={styles.eventTeam}><strong>Group 7</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Potions and Poisons</div>
+                <div className={styles.eventResult}>🥈 2nd</div>
+                <div className={styles.eventTeam}><strong>Group 7</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Machines</div>
+                <div className={styles.eventResult}>🥉 3rd</div>
+                <div className={styles.eventTeam}><strong>Group 2</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Codebusters</div>
+                <div className={styles.eventResult}>🏅 4th</div>
+                <div className={styles.eventTeam}><strong>Group 1</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Experimental Design</div>
+                <div className={styles.eventResult}>🏅 4th</div>
+                <div className={styles.eventTeam}><strong>Group 1</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Metric Mastery</div>
+                <div className={styles.eventResult}>5th</div>
+                <div className={styles.eventTeam}><strong>Group 7</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Remote Sensing</div>
+                <div className={styles.eventResult}>5th</div>
+                <div className={styles.eventTeam}><strong>Group 2</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Solar System</div>
+                <div className={styles.eventResult}>5th</div>
+                <div className={styles.eventTeam}><strong>Group 7</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Water Quality</div>
+                <div className={styles.eventResult}>5th</div>
+                <div className={styles.eventTeam}><strong>Group 3</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Boomilever</div>
+                <div className={styles.eventResult}>6th</div>
+                <div className={styles.eventTeam}><strong>Group 6</strong></div>
+              </div>
+              <div className={styles.tableRow}>
+                <div className={styles.eventName}>Code Craze</div>
+                <div className={styles.eventResult}>🥉 3rd</div>
+                <div className={styles.eventTeam}>Trial Event</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
 
       <section className={styles.section}>
         <div className={`${styles.competitionResults} glass`}>
@@ -397,70 +537,6 @@ export default function Team2025_2026() {
                   🟢 <strong>Group 4</strong> Green
                 </div>
               </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Machines</div>
-                <div className={styles.eventResult}>7th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 2</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Metric Mastery</div>
-                <div className={styles.eventResult}>7th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Scrambler</div>
-                <div className={styles.eventResult}>7th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 1</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>7th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 6</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Dynamic Planet</div>
-                <div className={styles.eventResult}>8th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Disease Detectives</div>
-                <div className={styles.eventResult}>8th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 6</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Potions and Poisons</div>
-                <div className={styles.eventResult}>8th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>8th</div>
-                <div className={styles.eventTeam}>
-                  ⚪ <strong>Group 6</strong> White
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -552,70 +628,6 @@ export default function Team2025_2026() {
                   🟡 <strong>Group 4</strong> Gold
                 </div>
               </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Circuit Lab</div>
-                <div className={styles.eventResult}>7th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 5</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Machines</div>
-                <div className={styles.eventResult}>12th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 2</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Hovercraft</div>
-                <div className={styles.eventResult}>14th</div>
-                <div className={styles.eventTeam}>
-                  ⚪ <strong>Group 3</strong> White
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Remote Sensing</div>
-                <div className={styles.eventResult}>14th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 2</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Heredity</div>
-                <div className={styles.eventResult}>16th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 4</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>18th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 6</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Write It Do It</div>
-                <div className={styles.eventResult}>19th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 6</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Scrambler</div>
-                <div className={styles.eventResult}>19th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 1</strong> Blue
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -681,62 +693,6 @@ export default function Team2025_2026() {
                 <div className={styles.eventResult}>6th</div>
                 <div className={styles.eventTeam}>
                   🟡 <strong>Group 1</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Dynamic Planet</div>
-                <div className={styles.eventResult}>12th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Codebusters</div>
-                <div className={styles.eventResult}>13th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 1</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Mission Possible</div>
-                <div className={styles.eventResult}>13th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 4</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Scrambler</div>
-                <div className={styles.eventResult}>14th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 1</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Scrambler</div>
-                <div className={styles.eventResult}>16th</div>
-                <div className={styles.eventTeam}>
-                  ⚪ <strong>Group 1</strong> White
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Potions and Poisons</div>
-                <div className={styles.eventResult}>17th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Mission Possible</div>
-                <div className={styles.eventResult}>18th</div>
-                <div className={styles.eventTeam}>
-                  🟢 <strong>Group 4</strong> Green
                 </div>
               </div>
             </div>
@@ -937,108 +893,6 @@ export default function Team2025_2026() {
                   🟡 <strong>Group 5</strong> Gold
                 </div>
               </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Scrambler</div>
-                <div className={styles.eventResult}>8th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 1</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Scrambler</div>
-                <div className={styles.eventResult}>10th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 1</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Write It Do It</div>
-                <div className={styles.eventResult}>16th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 6</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Machines</div>
-                <div className={styles.eventResult}>18th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 2</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Potions and Poisons</div>
-                <div className={styles.eventResult}>19th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Codebusters</div>
-                <div className={styles.eventResult}>23rd</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 1</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Brainrot</div>
-                <div className={styles.eventResult}>24th</div>
-                <div className={styles.eventTeam}>🔵 Blue</div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>26th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 6</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Dynamic Planet</div>
-                <div className={styles.eventResult}>25th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 7</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Boomilever</div>
-                <div className={styles.eventResult}>27th</div>
-                <div className={styles.eventTeam}>
-                  🔵 <strong>Group 6</strong> Blue
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Heredity</div>
-                <div className={styles.eventResult}>27th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 4</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Crime Busters</div>
-                <div className={styles.eventResult}>30th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 4</strong> Gold
-                </div>
-              </div>
-
-              <div className={styles.tableRow}>
-                <div className={styles.eventName}>Experimental Design</div>
-                <div className={styles.eventResult}>30th</div>
-                <div className={styles.eventTeam}>
-                  🟡 <strong>Group 1</strong> Gold
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -1094,12 +948,34 @@ export default function Team2025_2026() {
         <div className={`${styles.welcomeBox} glass`}>
           <h3>🎉 An Outstanding Season!</h3>
           <p>
-            The 2025-2026 season has been incredible so far! With a 4th place
-            school ranking at Regionals and Hyde Gold qualifying for the NorCal
-            State Tournament for only the 2nd time in our history, we&apos;re
-            proud of every team member&apos;s dedication and hard work. Good
-            luck at States!
+            The 2025-2026 season was one for the record books! We placed 5th at
+            NorCal State with a record-breaking 13 medals, earned 4th place
+            school ranking at Regionals with 15 medals, and qualified for State
+            for only the 2nd time in Hyde history. Congratulations to every team
+            member for their dedication and hard work!
           </p>
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Archive</h2>
+        <div className={styles.archiveGrid}>
+          <Link href="/team-2025-2026/norcal-state" className={`${styles.archiveCard} glass`}>
+            <div className={styles.archiveIcon}>🏅</div>
+            <div className={styles.archiveLabel}>NorCal State</div>
+          </Link>
+          <Link href="/team-2025-2026/santa-clara-regional" className={`${styles.archiveCard} glass`}>
+            <div className={styles.archiveIcon}>🏆</div>
+            <div className={styles.archiveLabel}>Santa Clara Regional</div>
+          </Link>
+          <Link href="/team-2025-2026/berkeley-invitational" className={`${styles.archiveCard} glass`}>
+            <div className={styles.archiveIcon}>🏛️</div>
+            <div className={styles.archiveLabel}>Berkeley Invitational</div>
+          </Link>
+          <Link href="/team-2025-2026/instructions" className={`${styles.archiveCard} glass`}>
+            <div className={styles.archiveIcon}>📋</div>
+            <div className={styles.archiveLabel}>Instructions</div>
+          </Link>
         </div>
       </section>
     </PageLayout>

@@ -28,15 +28,6 @@ export default function Home() {
       </div>
 
       <div className={styles.cards}>
-<Link href="/instructions" className={`${styles.card} glass`}>
-          <div className={styles.cardIcon}>📋</div>
-          <h2 className={styles.cardTitle}>Instructions</h2>
-          <p className={styles.cardDesc}>
-            Find guidelines, event assignments, team structure, and season
-            timeline
-          </p>
-        </Link>
-
         <Link href="/resources" className={`${styles.card} glass`}>
           <div className={styles.cardIcon}>📚</div>
           <h2 className={styles.cardTitle}>Resources</h2>
@@ -53,6 +44,16 @@ export default function Home() {
             View our team members, competition results, and achievements
           </p>
         </Link>
+
+        <a href="mailto:hsoteams@gmail.com" className={`${styles.card} glass`}>
+          <div className={styles.cardIcon}>👋</div>
+          <h2 className={styles.cardTitle}>Interested in joining?</h2>
+          <p className={styles.cardDesc}>
+            If you are a Hyde Middle School family interested in joining the
+            team, please get in touch with us in the Hyde Parents group chat,
+            or email hsoteams@gmail.com
+          </p>
+        </a>
       </div>
 
       <section className={styles.about}>

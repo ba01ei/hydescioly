@@ -1,4 +1,4 @@
-import PageLayout from "../components/PageLayout";
+import PageLayout from "../../components/PageLayout";
 import styles from "./page.module.css";
 
 export default function NorCalState() {
@@ -33,6 +33,152 @@ export default function NorCalState() {
             <div className={styles.infoIcon}>🏠</div>
             <div className={styles.infoLabel}>Home Base</div>
             <a href="https://maps.app.goo.gl/49SreZZCvRbMBtkv9?g_st=ic" target="_blank" rel="noopener noreferrer" className={styles.infoHintLink}>N-120</a>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <h2 id="results" className={styles.sectionTitle}>
+          <a href="#results" className={styles.anchorLink}>Tournament Results<span className={styles.anchorIcon}>#</span></a>
+        </h2>
+        <div className={`${styles.resultsBox} glass`}>
+          <div className={styles.overallPlace}>
+            <div className={styles.placeNumber}>5th</div>
+            <div className={styles.placeLabel}>out of 32 teams</div>
+          </div>
+
+          <div className={styles.recordCallout}>
+            <div className={styles.recordTitle}>🏆 New Record: 13 medals in State competition</div>
+          </div>
+
+          <div className={styles.resultsTable}>
+            <div className={styles.resultsTableHeader}>
+              <div>Event</div>
+              <div>Rank</div>
+              <div>Place</div>
+            </div>
+
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Anatomy and Physiology</div>
+              <div className={styles.resultRank}>2</div>
+              <div className={styles.resultPlace}>🥈 2nd <span className={styles.groupTag}>Group 2</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Circuit Lab</div>
+              <div className={styles.resultRank}>2</div>
+              <div className={styles.resultPlace}>🥈 2nd <span className={styles.groupTag}>Group 5</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Dynamic Planet</div>
+              <div className={styles.resultRank}>2</div>
+              <div className={styles.resultPlace}>🥈 2nd <span className={styles.groupTag}>Group 7</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Potions and Poisons</div>
+              <div className={styles.resultRank}>2</div>
+              <div className={styles.resultPlace}>🥈 2nd <span className={styles.groupTag}>Group 7</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Machines</div>
+              <div className={styles.resultRank}>3</div>
+              <div className={styles.resultPlace}>🥉 3rd <span className={styles.groupTag}>Group 2</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Codebusters</div>
+              <div className={styles.resultRank}>4</div>
+              <div className={styles.resultPlace}>🏅 4th <span className={styles.groupTag}>Group 1</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Experimental Design</div>
+              <div className={styles.resultRank}>4</div>
+              <div className={styles.resultPlace}>🏅 4th <span className={styles.groupTag}>Group 1</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Metric Mastery</div>
+              <div className={styles.resultRank}>5</div>
+              <div className={styles.resultPlace}>5th <span className={styles.groupTag}>Group 7</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Remote Sensing</div>
+              <div className={styles.resultRank}>5</div>
+              <div className={styles.resultPlace}>5th <span className={styles.groupTag}>Group 2</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Solar System</div>
+              <div className={styles.resultRank}>5</div>
+              <div className={styles.resultPlace}>5th <span className={styles.groupTag}>Group 7</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Water Quality</div>
+              <div className={styles.resultRank}>5</div>
+              <div className={styles.resultPlace}>5th <span className={styles.groupTag}>Group 3</span></div>
+            </div>
+            <div className={`${styles.resultsTableRow} ${styles.medalRow}`}>
+              <div className={styles.resultEvent}>Boomilever</div>
+              <div className={styles.resultRank}>6</div>
+              <div className={styles.resultPlace}>6th <span className={styles.groupTag}>Group 6</span></div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Write It Do It</div>
+              <div className={styles.resultRank}>8</div>
+              <div className={styles.resultPlace}>8th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Helicopter</div>
+              <div className={styles.resultRank}>9</div>
+              <div className={styles.resultPlace}>9th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Scrambler</div>
+              <div className={styles.resultRank}>9</div>
+              <div className={styles.resultPlace}>9th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Crime Busters</div>
+              <div className={styles.resultRank}>11</div>
+              <div className={styles.resultPlace}>11th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Mission Possible</div>
+              <div className={styles.resultRank}>11</div>
+              <div className={styles.resultPlace}>11th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Disease Detectives</div>
+              <div className={styles.resultRank}>12</div>
+              <div className={styles.resultPlace}>12th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Heredity</div>
+              <div className={styles.resultRank}>13</div>
+              <div className={styles.resultPlace}>13th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Rocks and Minerals</div>
+              <div className={styles.resultRank}>13</div>
+              <div className={styles.resultPlace}>13th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Entomology</div>
+              <div className={styles.resultRank}>14</div>
+              <div className={styles.resultPlace}>14th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Meteorology</div>
+              <div className={styles.resultRank}>15</div>
+              <div className={styles.resultPlace}>15th</div>
+            </div>
+            <div className={styles.resultsTableRow}>
+              <div className={styles.resultEvent}>Hovercraft</div>
+              <div className={styles.resultRank}>16</div>
+              <div className={styles.resultPlace}>16th</div>
+            </div>
+
+            <div className={`${styles.resultsTableRow} ${styles.trialRow}`}>
+              <div className={styles.resultEvent}>Code Craze <span className={styles.trialBadge}>Trial</span></div>
+              <div className={styles.resultRank}>0</div>
+              <div className={styles.resultPlace}>🥉 3rd</div>
+            </div>
           </div>
         </div>
       </section>

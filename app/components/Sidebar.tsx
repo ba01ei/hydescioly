@@ -11,10 +11,6 @@ export default function Sidebar() {
 
   const navItems = [
     { href: "/", label: "Home", icon: "🏠" },
-    { href: "/norcal-state", label: "NorCal State", icon: "🏅" },
-    { href: "/santa-clara-regional", label: "Santa Clara Regional", icon: "🏆" },
-    { href: "/berkeley-invitational", label: "Berkeley Invitational", icon: "🏛️" },
-    { href: "/instructions", label: "Instructions", icon: "📋" },
     { href: "/resources", label: "Resources", icon: "📚" },
     { href: "/team-2025-2026", label: "2025-2026 Team", icon: "🎯" },
     { href: "/team-2024-2025", label: "2024-2025 Team", icon: "🏆" },

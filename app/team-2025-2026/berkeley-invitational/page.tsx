@@ -1,4 +1,4 @@
-import PageLayout from "../components/PageLayout";
+import PageLayout from "../../components/PageLayout";
 import styles from "./page.module.css";
 
 export default function BerkeleyInvitational() {
